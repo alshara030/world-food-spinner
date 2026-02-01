@@ -1,2 +1,50 @@
-<link rel="stylesheet" href="style.css">
-<script src="script.js" defer></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Master-Chef Spinner</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <h1><i class="fas fa-utensils"></i> Global Master-Chef</h1>
+
+    <div class="app-container">
+        <div class="wheel-box">
+            <div class="wheel-wrapper">
+                <div class="pointer"></div>
+                <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            </div>
+            <button id="spinBtn" onclick="spinWheel()">SPIN FOR RECIPE</button>
+            <div id="status-text"></div>
+        </div>
+
+        <div class="sidebar">
+            <h2>🌍 World Menu</h2>
+            <select id="countrySelect" onchange="changeCountry()"></select>
+            <div class="food-list-display" id="foodList"></div>
+        </div>
+
+        <div id="recipe-card">
+            <div class="recipe-header">
+                <h3 id="recipe-title">Winner</h3>
+            </div>
+            <div class="recipe-content">
+                <div class="ing-section">
+                    <h4>Ingredients</h4>
+                    <ul id="ingredients-list"></ul>
+                </div>
+                <div class="step-section">
+                    <h4>Steps</h4>
+                    <ol id="steps-list"></ol>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
