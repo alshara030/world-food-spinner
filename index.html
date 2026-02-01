@@ -10,36 +10,43 @@
 </head>
 <body>
 
-    <h1><i class="fas fa-utensils"></i> Global Master-Chef</h1>
+    <header>
+        <h1><i class="fas fa-globe-americas"></i> Global Master-Chef</h1>
+        <p>Select a country and spin for a detailed 5-star recipe tutorial.</p>
+    </header>
 
     <div class="app-container">
-        <div class="wheel-box">
-            <div class="wheel-wrapper">
-                <div class="pointer"></div>
-                <canvas id="wheelCanvas" width="500" height="500"></canvas>
+        <div class="main-stage">
+            <div class="wheel-box">
+                <div class="wheel-wrapper">
+                    <div class="pointer"></div>
+                    <canvas id="wheelCanvas" width="500" height="500"></canvas>
+                </div>
+                <button id="spinBtn" onclick="spinWheel()">SPIN FOR RECIPE</button>
             </div>
-            <button id="spinBtn" onclick="spinWheel()">SPIN FOR RECIPE</button>
-            <div id="status-text">Ready to cook?</div>
+
+            <div class="sidebar">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="countrySearch" placeholder="Search 50+ countries..." onkeyup="filterCountries()">
+                </div>
+                <select id="countrySelect" onchange="changeCountry()"></select>
+                <div id="foodList" class="food-preview-list"></div>
+            </div>
         </div>
 
-        <div class="sidebar">
-            <h2>🌍 Search & Select</h2>
-            <input type="text" id="countrySearch" placeholder="Type a country..." onkeyup="filterCountries()">
-            <select id="countrySelect" onchange="changeCountry()"></select>
-            <div class="food-list-display" id="foodList"></div>
-        </div>
-
-        <div id="recipe-card">
+        <div id="recipe-card" class="recipe-container">
             <div class="recipe-header">
-                <h3 id="recipe-title">Winner</h3>
+                <h2 id="recipe-title">Choose a country to begin</h2>
+                <span id="country-badge"></span>
             </div>
-            <div class="recipe-content">
-                <div class="ing-section">
-                    <h4><i class="fas fa-list-ul"></i> Ingredients</h4>
+            <div class="recipe-body">
+                <div class="ingredients-box">
+                    <h3><i class="fas fa-shopping-cart"></i> Ingredients</h3>
                     <ul id="ingredients-list"></ul>
                 </div>
-                <div class="step-section">
-                    <h4><i class="fas fa-tasks"></i> Steps</h4>
+                <div class="steps-box">
+                    <h3><i class="fas fa-mortar-pestle"></i> Cooking Tutorial</h3>
                     <ol id="steps-list"></ol>
                 </div>
             </div>
