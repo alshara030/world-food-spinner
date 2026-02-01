@@ -1,52 +1,111 @@
 {
-  "Syria": { "Shishbarak": { "ing": ["Dough", "Lamb", "Yogurt", "Garlic"], "step": ["Stuff dough with meat", "Boil yogurt", "Drop dumplings in", "Top with fried garlic"] } },
-  "Italy": { "Pasta Carbonara": { "ing": ["Spaghetti", "Eggs", "Pecorino", "Guanciale"], "step": ["Boil pasta", "Fry meat", "Mix eggs and cheese", "Toss all together off heat"] } },
-  "Mexico": { "Tacos Al Pastor": { "ing": ["Corn Tortillas", "Marinated Pork", "Pineapple", "Cilantro"], "step": ["Grill pork", "Warm tortillas", "Top with pineapple and herbs"] } },
-  "Japan": { "Sushi": { "ing": ["Sushi Rice", "Nori", "Fresh Fish", "Rice Vinegar"], "step": ["Season rice", "Lay fish on rice", "Roll tightly with nori", "Slice"] } },
-  "France": { "Ratatouille": { "ing": ["Eggplant", "Zucchini", "Tomato", "Herbs"], "step": ["Slice vegetables", "Layer in dish", "Slow bake with olive oil"] } },
-  "Lebanon": { "Tabbouleh": { "ing": ["Parsley", "Bulgur", "Tomatoes", "Lemon Juice"], "step": ["Chop parsley very fine", "Soak bulgur", "Mix and season"] } },
-  "Turkey": { "Iskender Kebab": { "ing": ["Lamb", "Pita Bread", "Tomato Sauce", "Yogurt"], "step": ["Thinly slice lamb", "Layer over bread", "Pour hot butter and sauce"] } },
-  "Palestine": { "Musakhan": { "ing": ["Taboon Bread", "Chicken", "Sumac", "Onions"], "step": ["Caramelize onions with sumac", "Roast chicken", "Serve on bread"] } },
-  "Jordan": { "Mansaf": { "ing": ["Lamb", "Jameed", "Rice", "Nuts"], "step": ["Cook lamb in Jameed yogurt", "Serve on rice and thin bread"] } },
-  "Egypt": { "Koshary": { "ing": ["Rice", "Lentils", "Macaroni", "Spicy Tomato Sauce"], "step": ["Cook grains separately", "Mix and top with sauce and fried onions"] } },
-  "India": { "Butter Chicken": { "ing": ["Chicken", "Tomato Puree", "Butter", "Cream"], "step": ["Marinate chicken", "Simmer in spiced tomato gravy", "Add cream"] } },
-  "Spain": { "Paella": { "ing": ["Rice", "Saffron", "Seafood", "Peas"], "step": ["Sauté seafood", "Cook rice in saffron broth", "Let crust form at bottom"] } },
-  "Greece": { "Moussaka": { "ing": ["Eggplant", "Minced Meat", "Béchamel sauce"], "step": ["Layer eggplant and meat", "Top with white sauce", "Bake until gold"] } },
-  "USA": { "Cheeseburger": { "ing": ["Beef Patty", "Brioche Bun", "Cheddar", "Pickles"], "step": ["Grill patty", "Melt cheese on top", "Toast bun and assemble"] } },
-  "Brazil": { "Feijoada": { "ing": ["Black Beans", "Pork", "Beef", "Garlic"], "step": ["Stew beans and meat for hours", "Serve with rice and orange slices"] } },
-  "China": { "Kung Pao Chicken": { "ing": ["Chicken", "Peanuts", "Dried Chilies", "Soy Sauce"], "step": ["Stir-fry chicken", "Add chilies and nuts", "Toss in savory sauce"] } },
-  "Thailand": { "Pad Thai": { "ing": ["Rice Noodles", "Shrimp", "Tamarind Paste", "Peanuts"], "step": ["Soak noodles", "Stir-fry with shrimp and sauce", "Top with sprouts"] } },
-  "Vietnam": { "Pho": { "ing": ["Beef Broth", "Rice Sticks", "Beef Slices", "Basil"], "step": ["Simmer broth for 12 hours", "Pour over raw beef and noodles"] } },
-  "Korea": { "Bibimbap": { "ing": ["Rice", "Sautéed Veggies", "Beef", "Egg", "Gochujang"], "step": ["Place rice in bowl", "Arrange veggies on top", "Add fried egg"] } },
-  "Morocco": { "Lamb Tagine": { "ing": ["Lamb", "Prunes", "Almonds", "Couscous"], "step": ["Slow cook lamb with fruit in clay pot", "Serve over couscous"] } },
-  "Germany": { "Schnitzel": { "ing": ["Veal or Pork", "Flour", "Eggs", "Breadcrumbs"], "step": ["Pound meat thin", "Coat in breadcrumbs", "Pan fry in butter"] } },
-  "UK": { "Fish and Chips": { "ing": ["Cod", "Flour", "Beer", "Potatoes"], "step": ["Batter the fish", "Deep fry until crispy", "Serve with thick fries"] } },
-  "Argentina": { "Asado": { "ing": ["Beef Ribs", "Salt", "Chimichurri Sauce"], "step": ["Slow grill meat over charcoal", "Season with salt only", "Serve with sauce"] } },
-  "Peru": { "Ceviche": { "ing": ["Raw Fish", "Lime Juice", "Red Onion", "Cilantro"], "step": ["Marinate fish in lime juice", "Mix with onions", "Serve chilled"] } },
-  "Ethiopia": { "Doro Wat": { "ing": ["Chicken", "Berbere Spice", "Eggs", "Injera"], "step": ["Stew chicken in spicy sauce", "Add boiled eggs", "Eat with injera bread"] } },
-  "Nigeria": { "Jollof Rice": { "ing": ["Rice", "Tomatoes", "Chilies", "Onions"], "step": ["Blend veggies for base", "Cook rice in the spicy tomato base"] } },
-  "Pakistan": { "Biryani": { "ing": ["Basmati Rice", "Chicken", "Yogurt", "Saffron"], "step": ["Layer partially cooked rice and spicy meat", "Steam together"] } },
-  "Iran": { "Ghormeh Sabzi": { "ing": ["Herbs", "Lamb", "Kidney Beans", "Dried Limes"], "step": ["Sauté herbs", "Stew with meat and limes", "Serve with rice"] } },
-  "Iraq": { "Masgouf": { "ing": ["Carp Fish", "Tamarind", "Turmeric"], "step": ["Butterfly the fish", "Grill upright next to fire", "Baste with tamarind"] } },
-  "Saudi Arabia": { "Kabsa": { "ing": ["Rice", "Chicken", "Black Lime", "Cloves"], "step": ["Cook chicken in spices", "Use broth to cook rice", "Serve together"] } },
-  "UAE": { "Harees": { "ing": ["Cracked Wheat", "Veal", "Ghee"], "step": ["Boil wheat and meat until mushy", "Beat until smooth", "Top with ghee"] } },
-  "Algeria": { "Couscous": { "ing": ["Semolina", "Lamb", "Chickpeas", "Turnips"], "step": ["Steam couscous over meat stew", "Top with vegetables"] } },
-  "Tunisia": { "Brik": { "ing": ["Malsouka Pastry", "Egg", "Tuna", "Parsley"], "step": ["Fold egg/tuna in pastry", "Deep fry until egg is runny inside"] } },
-  "Afghanistan": { "Kabuli Pulao": { "ing": ["Rice", "Lamb", "Carrots", "Raisins"], "step": ["Cook rice with lamb", "Top with caramelized carrots and raisins"] } },
-  "Indonesia": { "Nasi Goreng": { "ing": ["Rice", "Sweet Soy Sauce", "Shrimp Paste", "Egg"], "step": ["Stir-fry rice with sauce", "Top with a fried egg"] } },
-  "Philippines": { "Adobo": { "ing": ["Chicken", "Soy Sauce", "Vinegar", "Garlic"], "step": ["Simmer chicken in sauce and vinegar until tender"] } },
-  "Russia": { "Borscht": { "ing": ["Beets", "Cabbage", "Potatoes", "Sour Cream"], "step": ["Boil beets for broth", "Add veggies", "Serve with sour cream"] } },
-  "Poland": { "Pierogi": { "ing": ["Dough", "Potato", "Cheese", "Onions"], "step": ["Fill dough with mash", "Boil", "Pan fry with onions"] } },
-  "Sweden": { "Meatballs": { "ing": ["Beef/Pork", "Cream", "Lingonberries", "Potatoes"], "step": ["Fry meatballs", "Make cream gravy", "Serve with jam"] } },
-  "Switzerland": { "Fondue": { "ing": ["Gruyere Cheese", "White Wine", "Bread"], "step": ["Melt cheese into wine", "Dip bread cubes into pot"] } },
-  "Belgium": { "Moules-Frites": { "ing": ["Mussels", "White Wine", "Shallots", "Fries"], "step": ["Steam mussels in wine", "Serve with crispy fries"] } },
-  "Netherlands": { "Stamppot": { "ing": ["Potatoes", "Kale", "Sausage"], "step": ["Mash potatoes and kale together", "Serve with smoked sausage"] } },
-  "Portugal": { "Bacalhau": { "ing": ["Salted Cod", "Potatoes", "Onions", "Eggs"], "step": ["Shred cod", "Mix with fried potatoes and scrambled eggs"] } },
-  "South Africa": { "Bobotie": { "ing": ["Minced Meat", "Curry Powder", "Egg Custard"], "step": ["Bake spiced meat", "Top with egg wash", "Bake again"] } },
-  "Jamaica": { "Jerk Chicken": { "ing": ["Chicken", "Allspice", "Scotch Bonnet Peppers"], "step": ["Marinate chicken in hot spices", "Grill over wood"] } },
-  "Canada": { "Poutine": { "ing": ["Fries", "Cheese Curds", "Brown Gravy"], "step": ["Fry potatoes", "Add fresh curds", "Pour hot gravy over"] } },
-  "Australia": { "Meat Pie": { "ing": ["Shortcrust Pastry", "Minced Beef", "Gravy"], "step": ["Fill pastry with meat gravy", "Bake until golden"] } },
-  "Colombia": { "Bandeja Paisa": { "ing": ["Rice", "Beans", "Chorizo", "Avocado", "Egg"], "step": ["Cook all items", "Serve as a massive platter"] } },
-  "Ireland": { "Irish Stew": { "ing": ["Lamb", "Potatoes", "Carrots", "Onions"], "step": ["Simmer meat and vegetables slowly in one pot"] } },
-  "Norway": { "Fårikål": { "ing": ["Mutton", "Cabbage", "Black Peppercorns"], "step": ["Layer meat and cabbage in pot", "Simmer for 3 hours"] } }
+  "Syria": {
+    "Shishbarak": {
+      "ing": [
+        "2 cups All-purpose flour",
+        "500g Ground lamb or beef",
+        "1kg Plain whole-milk yogurt",
+        "1 tbsp Cornstarch (dissolved in 1/4 cup water)",
+        "4 cloves Garlic (minced)",
+        "1 bunch Fresh cilantro (chopped)",
+        "1 tsp Allspice, salt, and black pepper",
+        "1 tbsp Pine nuts (optional)"
+      ],
+      "step": [
+        "Prepare the dough by mixing flour, water, and a pinch of salt. Let it rest for 30 mins.",
+        "Sauté the meat with onions, allspice, salt, and pepper until browned. Mix in pine nuts.",
+        "Roll out the dough thin and cut into small circles. Place a teaspoon of meat in each, fold into a half-moon, and pinch the corners together to make a hat shape.",
+        "Whisk the yogurt with the dissolved cornstarch and a pinch of salt. Bring to a very gentle simmer while stirring constantly in one direction to prevent curdling.",
+        "Drop the dough dumplings into the simmering yogurt and cook for 10-12 minutes.",
+        "In a small pan, fry the garlic and cilantro in a little olive oil until fragrant, then pour it over the yogurt before serving."
+      ]
+    },
+    "Shakria": {
+      "ing": ["1kg Lamb shanks", "1kg Yogurt", "1 Egg", "2 Onions", "Cinnamon sticks", "Bay leaves"],
+      "step": [
+        "Boil the lamb with whole onions, cinnamon, and bay leaves until the meat falls off the bone.",
+        "Strain the meat broth and save 1 cup of it.",
+        "Whisk yogurt with an egg and cornstarch until perfectly smooth.",
+        "Heat the yogurt slowly. Once simmering, add the cooked meat and the cup of broth.",
+        "Cook on low heat for 15 minutes. Serve hot with vermicelli rice."
+      ]
+    },
+    "Kibbeh Labanieh": {
+      "ing": ["15 Prepared Kibbeh balls", "1kg Yogurt", "1 tbsp Dried mint", "3 cloves Garlic", "Cornstarch"],
+      "step": [
+        "Prepare the yogurt base (yogurt + cornstarch + water) and bring to a simmer.",
+        "Gently drop the raw or pre-fried kibbeh balls into the yogurt.",
+        "Simmer for 15 minutes until the kibbeh is cooked through.",
+        "Sauté garlic in butter, add dried mint, and swirl into the pot at the very end."
+      ]
+    },
+    "Yabrat (Grape Leaves)": {
+      "ing": ["500g Grape leaves", "2 cups Short grain rice", "300g Minced meat", "Lamb chops (for the bottom of pot)", "6 cloves Garlic", "Lemon juice"],
+      "step": [
+        "Mix rice, minced meat, and spices. Stuff and roll the grape leaves tightly.",
+        "Line the bottom of a heavy pot with lamb chops and garlic cloves.",
+        "Stack the rolled leaves in neat layers. Add water, salt, and a plate on top to weigh them down.",
+        "Simmer on low for 3-4 hours. Add lemon juice in the last 30 minutes of cooking."
+      ]
+    },
+    "Mansaf (Syrian Style)": {
+      "ing": ["1.5kg Lamb meat", "Jameed or Yogurt", "Rice", "Turmeric", "Toasted almonds", "Saj bread"],
+      "step": [
+        "Cook lamb in a broth of yogurt/jameed until extremely tender.",
+        "Cook the rice with turmeric for a bright yellow color.",
+        "Layer the saj bread on a large platter, soak with some yogurt broth, then pile the rice on top.",
+        "Place the meat in the center and garnish with a generous amount of toasted almonds and parsley."
+      ]
+    }
+  },
+  "Italy": {
+    "Classic Margherita Pizza": {
+      "ing": ["500g Type 00 Flour", "325ml Warm water", "7g Yeast", "San Marzano tomatoes", "Fresh Mozzarella di Bufala", "Fresh Basil", "Extra virgin olive oil"],
+      "step": [
+        "Mix flour, yeast, and water. Knead for 10 minutes and let rise for at least 2 hours.",
+        "Hand-stretch the dough into a circle. Do not use a rolling pin to keep the air in the crust.",
+        "Spread a thin layer of crushed tomatoes and add chunks of fresh mozzarella.",
+        "Bake in a very hot oven (250°C+) on a pizza stone if possible for 7-10 minutes.",
+        "Finish with fresh basil leaves and a drizzle of high-quality olive oil."
+      ]
+    },
+    "Authentic Carbonara": {
+      "ing": ["200g Spaghetti", "150g Guanciale (cured pork cheek)", "3 Large egg yolks", "1 Whole egg", "60g Pecorino Romano cheese", "Freshly cracked black pepper"],
+      "step": [
+        "Boil spaghetti in salted water. Reserve half a cup of pasta water.",
+        "Fry the guanciale until the fat renders and it becomes crispy. Remove from heat.",
+        "In a bowl, whisk eggs, cheese, and a lot of black pepper until it forms a thick paste.",
+        "Toss the hot pasta into the pan with the guanciale. Add the egg mixture and a splash of pasta water.",
+        "Vigorously stir away from the heat so the eggs create a creamy sauce without scrambling.",
+        "Serve immediately with extra cheese on top."
+      ]
+    },
+    "Eggplant Parmigiana": {
+      "ing": ["2 Large eggplants", "Tomato passata", "Mozzarella", "Parmesan cheese", "Flour", "Oil for frying"],
+      "step": [
+        "Slice eggplants, salt them to remove moisture, then coat in flour and fry until golden.",
+        "In a baking dish, layer tomato sauce, eggplant slices, mozzarella, and parmesan.",
+        "Repeat layers 3 or 4 times.",
+        "Bake at 190°C for 30 minutes until the cheese is bubbling and browned."
+      ]
+    },
+    "Mushroom Risotto": {
+      "ing": ["300g Arborio rice", "1L Vegetable stock", "200g Porcini mushrooms", "Dry white wine", "Butter", "Shallots"],
+      "step": [
+        "Sauté shallots and mushrooms in butter. Add rice and toast for 2 minutes.",
+        "Deglaze with a splash of white wine.",
+        "Add warm stock one ladle at a time, stirring constantly until absorbed before adding more.",
+        "Once the rice is al dente, stir in a large knob of butter and parmesan for the 'mantecatura' (creaminess)."
+      ]
+    },
+    "Lasagna Bolognese": {
+      "ing": ["Lasagna sheets", "Bolognese ragu", "Béchamel sauce", "Parmesan cheese"],
+      "step": [
+        "Slow-cook a meat ragu for at least 3 hours.",
+        "Make a fresh white béchamel sauce with butter, flour, and milk.",
+        "Layer sauce, pasta, ragu, and cheese in 5 or more layers.",
+        "Bake until the top is crispy and the center is tender."
+      ]
+    }
+  }
 }
