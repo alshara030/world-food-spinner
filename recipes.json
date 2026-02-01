@@ -1,18 +1,52 @@
 {
-  "Syria": {
-    "Shishbarak": {
-      "ing": ["2 cups Flour", "500g Lamb", "1kg Yogurt", "Garlic"],
-      "step": ["Make dough circles", "Fill with meat", "Boil in yogurt", "Add garlic cilantro fry"]
-    },
-    "Shakria": {
-      "ing": ["1kg Lamb", "1kg Yogurt", "Onions", "Cornstarch"],
-      "step": ["Boil meat with onions", "Whisk yogurt and cornstarch", "Cook together"]
-    }
-  },
-  "Italy": {
-    "Pizza": {
-      "ing": ["Flour", "Yeast", "Tomato", "Mozzarella"],
-      "step": ["Make dough", "Add toppings", "Bake at high heat"]
-    }
-  }
+  "Syria": { "Shishbarak": { "ing": ["Dough", "Lamb", "Yogurt", "Garlic"], "step": ["Stuff dough with meat", "Boil yogurt", "Drop dumplings in", "Top with fried garlic"] } },
+  "Italy": { "Pasta Carbonara": { "ing": ["Spaghetti", "Eggs", "Pecorino", "Guanciale"], "step": ["Boil pasta", "Fry meat", "Mix eggs and cheese", "Toss all together off heat"] } },
+  "Mexico": { "Tacos Al Pastor": { "ing": ["Corn Tortillas", "Marinated Pork", "Pineapple", "Cilantro"], "step": ["Grill pork", "Warm tortillas", "Top with pineapple and herbs"] } },
+  "Japan": { "Sushi": { "ing": ["Sushi Rice", "Nori", "Fresh Fish", "Rice Vinegar"], "step": ["Season rice", "Lay fish on rice", "Roll tightly with nori", "Slice"] } },
+  "France": { "Ratatouille": { "ing": ["Eggplant", "Zucchini", "Tomato", "Herbs"], "step": ["Slice vegetables", "Layer in dish", "Slow bake with olive oil"] } },
+  "Lebanon": { "Tabbouleh": { "ing": ["Parsley", "Bulgur", "Tomatoes", "Lemon Juice"], "step": ["Chop parsley very fine", "Soak bulgur", "Mix and season"] } },
+  "Turkey": { "Iskender Kebab": { "ing": ["Lamb", "Pita Bread", "Tomato Sauce", "Yogurt"], "step": ["Thinly slice lamb", "Layer over bread", "Pour hot butter and sauce"] } },
+  "Palestine": { "Musakhan": { "ing": ["Taboon Bread", "Chicken", "Sumac", "Onions"], "step": ["Caramelize onions with sumac", "Roast chicken", "Serve on bread"] } },
+  "Jordan": { "Mansaf": { "ing": ["Lamb", "Jameed", "Rice", "Nuts"], "step": ["Cook lamb in Jameed yogurt", "Serve on rice and thin bread"] } },
+  "Egypt": { "Koshary": { "ing": ["Rice", "Lentils", "Macaroni", "Spicy Tomato Sauce"], "step": ["Cook grains separately", "Mix and top with sauce and fried onions"] } },
+  "India": { "Butter Chicken": { "ing": ["Chicken", "Tomato Puree", "Butter", "Cream"], "step": ["Marinate chicken", "Simmer in spiced tomato gravy", "Add cream"] } },
+  "Spain": { "Paella": { "ing": ["Rice", "Saffron", "Seafood", "Peas"], "step": ["Sauté seafood", "Cook rice in saffron broth", "Let crust form at bottom"] } },
+  "Greece": { "Moussaka": { "ing": ["Eggplant", "Minced Meat", "Béchamel sauce"], "step": ["Layer eggplant and meat", "Top with white sauce", "Bake until gold"] } },
+  "USA": { "Cheeseburger": { "ing": ["Beef Patty", "Brioche Bun", "Cheddar", "Pickles"], "step": ["Grill patty", "Melt cheese on top", "Toast bun and assemble"] } },
+  "Brazil": { "Feijoada": { "ing": ["Black Beans", "Pork", "Beef", "Garlic"], "step": ["Stew beans and meat for hours", "Serve with rice and orange slices"] } },
+  "China": { "Kung Pao Chicken": { "ing": ["Chicken", "Peanuts", "Dried Chilies", "Soy Sauce"], "step": ["Stir-fry chicken", "Add chilies and nuts", "Toss in savory sauce"] } },
+  "Thailand": { "Pad Thai": { "ing": ["Rice Noodles", "Shrimp", "Tamarind Paste", "Peanuts"], "step": ["Soak noodles", "Stir-fry with shrimp and sauce", "Top with sprouts"] } },
+  "Vietnam": { "Pho": { "ing": ["Beef Broth", "Rice Sticks", "Beef Slices", "Basil"], "step": ["Simmer broth for 12 hours", "Pour over raw beef and noodles"] } },
+  "Korea": { "Bibimbap": { "ing": ["Rice", "Sautéed Veggies", "Beef", "Egg", "Gochujang"], "step": ["Place rice in bowl", "Arrange veggies on top", "Add fried egg"] } },
+  "Morocco": { "Lamb Tagine": { "ing": ["Lamb", "Prunes", "Almonds", "Couscous"], "step": ["Slow cook lamb with fruit in clay pot", "Serve over couscous"] } },
+  "Germany": { "Schnitzel": { "ing": ["Veal or Pork", "Flour", "Eggs", "Breadcrumbs"], "step": ["Pound meat thin", "Coat in breadcrumbs", "Pan fry in butter"] } },
+  "UK": { "Fish and Chips": { "ing": ["Cod", "Flour", "Beer", "Potatoes"], "step": ["Batter the fish", "Deep fry until crispy", "Serve with thick fries"] } },
+  "Argentina": { "Asado": { "ing": ["Beef Ribs", "Salt", "Chimichurri Sauce"], "step": ["Slow grill meat over charcoal", "Season with salt only", "Serve with sauce"] } },
+  "Peru": { "Ceviche": { "ing": ["Raw Fish", "Lime Juice", "Red Onion", "Cilantro"], "step": ["Marinate fish in lime juice", "Mix with onions", "Serve chilled"] } },
+  "Ethiopia": { "Doro Wat": { "ing": ["Chicken", "Berbere Spice", "Eggs", "Injera"], "step": ["Stew chicken in spicy sauce", "Add boiled eggs", "Eat with injera bread"] } },
+  "Nigeria": { "Jollof Rice": { "ing": ["Rice", "Tomatoes", "Chilies", "Onions"], "step": ["Blend veggies for base", "Cook rice in the spicy tomato base"] } },
+  "Pakistan": { "Biryani": { "ing": ["Basmati Rice", "Chicken", "Yogurt", "Saffron"], "step": ["Layer partially cooked rice and spicy meat", "Steam together"] } },
+  "Iran": { "Ghormeh Sabzi": { "ing": ["Herbs", "Lamb", "Kidney Beans", "Dried Limes"], "step": ["Sauté herbs", "Stew with meat and limes", "Serve with rice"] } },
+  "Iraq": { "Masgouf": { "ing": ["Carp Fish", "Tamarind", "Turmeric"], "step": ["Butterfly the fish", "Grill upright next to fire", "Baste with tamarind"] } },
+  "Saudi Arabia": { "Kabsa": { "ing": ["Rice", "Chicken", "Black Lime", "Cloves"], "step": ["Cook chicken in spices", "Use broth to cook rice", "Serve together"] } },
+  "UAE": { "Harees": { "ing": ["Cracked Wheat", "Veal", "Ghee"], "step": ["Boil wheat and meat until mushy", "Beat until smooth", "Top with ghee"] } },
+  "Algeria": { "Couscous": { "ing": ["Semolina", "Lamb", "Chickpeas", "Turnips"], "step": ["Steam couscous over meat stew", "Top with vegetables"] } },
+  "Tunisia": { "Brik": { "ing": ["Malsouka Pastry", "Egg", "Tuna", "Parsley"], "step": ["Fold egg/tuna in pastry", "Deep fry until egg is runny inside"] } },
+  "Afghanistan": { "Kabuli Pulao": { "ing": ["Rice", "Lamb", "Carrots", "Raisins"], "step": ["Cook rice with lamb", "Top with caramelized carrots and raisins"] } },
+  "Indonesia": { "Nasi Goreng": { "ing": ["Rice", "Sweet Soy Sauce", "Shrimp Paste", "Egg"], "step": ["Stir-fry rice with sauce", "Top with a fried egg"] } },
+  "Philippines": { "Adobo": { "ing": ["Chicken", "Soy Sauce", "Vinegar", "Garlic"], "step": ["Simmer chicken in sauce and vinegar until tender"] } },
+  "Russia": { "Borscht": { "ing": ["Beets", "Cabbage", "Potatoes", "Sour Cream"], "step": ["Boil beets for broth", "Add veggies", "Serve with sour cream"] } },
+  "Poland": { "Pierogi": { "ing": ["Dough", "Potato", "Cheese", "Onions"], "step": ["Fill dough with mash", "Boil", "Pan fry with onions"] } },
+  "Sweden": { "Meatballs": { "ing": ["Beef/Pork", "Cream", "Lingonberries", "Potatoes"], "step": ["Fry meatballs", "Make cream gravy", "Serve with jam"] } },
+  "Switzerland": { "Fondue": { "ing": ["Gruyere Cheese", "White Wine", "Bread"], "step": ["Melt cheese into wine", "Dip bread cubes into pot"] } },
+  "Belgium": { "Moules-Frites": { "ing": ["Mussels", "White Wine", "Shallots", "Fries"], "step": ["Steam mussels in wine", "Serve with crispy fries"] } },
+  "Netherlands": { "Stamppot": { "ing": ["Potatoes", "Kale", "Sausage"], "step": ["Mash potatoes and kale together", "Serve with smoked sausage"] } },
+  "Portugal": { "Bacalhau": { "ing": ["Salted Cod", "Potatoes", "Onions", "Eggs"], "step": ["Shred cod", "Mix with fried potatoes and scrambled eggs"] } },
+  "South Africa": { "Bobotie": { "ing": ["Minced Meat", "Curry Powder", "Egg Custard"], "step": ["Bake spiced meat", "Top with egg wash", "Bake again"] } },
+  "Jamaica": { "Jerk Chicken": { "ing": ["Chicken", "Allspice", "Scotch Bonnet Peppers"], "step": ["Marinate chicken in hot spices", "Grill over wood"] } },
+  "Canada": { "Poutine": { "ing": ["Fries", "Cheese Curds", "Brown Gravy"], "step": ["Fry potatoes", "Add fresh curds", "Pour hot gravy over"] } },
+  "Australia": { "Meat Pie": { "ing": ["Shortcrust Pastry", "Minced Beef", "Gravy"], "step": ["Fill pastry with meat gravy", "Bake until golden"] } },
+  "Colombia": { "Bandeja Paisa": { "ing": ["Rice", "Beans", "Chorizo", "Avocado", "Egg"], "step": ["Cook all items", "Serve as a massive platter"] } },
+  "Ireland": { "Irish Stew": { "ing": ["Lamb", "Potatoes", "Carrots", "Onions"], "step": ["Simmer meat and vegetables slowly in one pot"] } },
+  "Norway": { "Fårikål": { "ing": ["Mutton", "Cabbage", "Black Peppercorns"], "step": ["Layer meat and cabbage in pot", "Simmer for 3 hours"] } }
 }
