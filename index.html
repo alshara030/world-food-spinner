@@ -19,11 +19,12 @@
                 <canvas id="wheelCanvas" width="500" height="500"></canvas>
             </div>
             <button id="spinBtn" onclick="spinWheel()">SPIN FOR RECIPE</button>
-            <div id="status-text"></div>
+            <div id="status-text">Ready to cook?</div>
         </div>
 
         <div class="sidebar">
-            <h2>🌍 World Menu</h2>
+            <h2>🌍 Search & Select</h2>
+            <input type="text" id="countrySearch" placeholder="Type a country..." onkeyup="filterCountries()">
             <select id="countrySelect" onchange="changeCountry()"></select>
             <div class="food-list-display" id="foodList"></div>
         </div>
@@ -34,11 +35,11 @@
             </div>
             <div class="recipe-content">
                 <div class="ing-section">
-                    <h4>Ingredients</h4>
+                    <h4><i class="fas fa-list-ul"></i> Ingredients</h4>
                     <ul id="ingredients-list"></ul>
                 </div>
                 <div class="step-section">
-                    <h4>Steps</h4>
+                    <h4><i class="fas fa-tasks"></i> Steps</h4>
                     <ol id="steps-list"></ol>
                 </div>
             </div>
