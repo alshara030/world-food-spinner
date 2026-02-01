@@ -1,1 +1,18 @@
-
+{
+  "Syria": {
+    "Shishbarak": {
+      "ing": ["2 cups Flour", "500g Lamb", "1kg Yogurt", "Garlic"],
+      "step": ["Make dough circles", "Fill with meat", "Boil in yogurt", "Add garlic cilantro fry"]
+    },
+    "Shakria": {
+      "ing": ["1kg Lamb", "1kg Yogurt", "Onions", "Cornstarch"],
+      "step": ["Boil meat with onions", "Whisk yogurt and cornstarch", "Cook together"]
+    }
+  },
+  "Italy": {
+    "Pizza": {
+      "ing": ["Flour", "Yeast", "Tomato", "Mozzarella"],
+      "step": ["Make dough", "Add toppings", "Bake at high heat"]
+    }
+  }
+}
