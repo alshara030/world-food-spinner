@@ -1,1 +1,68 @@
 
+:root {
+    --primary: #00d2d3;
+    --secondary: #1dd1a1;
+    --bg: #0f172a;
+    --card: #1e293b;
+    --text: #f8fafc;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.app-container {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    background: var(--card);
+    padding: 30px;
+    border-radius: 24px;
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.wheel-wrapper {
+    position: relative;
+    width: 380px;
+    height: 380px;
+    margin: 0 auto 20px;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+    transition: transform 4s cubic-bezier(0.1, 0, 0.1, 1);
+}
+
+.pointer {
+    position: absolute; top: -15px; left: 50%;
+    transform: translateX(-50%);
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 35px solid var(--primary);
+    z-index: 10;
+}
+
+#spinBtn {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    border: none; padding: 15px; width: 100%;
+    border-radius: 12px; font-weight: bold; cursor: pointer;
+}
+
+#recipe-card {
+    grid-column: span 2;
+    display: none;
+    background: rgba(255,255,255,0.05);
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.recipe-content { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
