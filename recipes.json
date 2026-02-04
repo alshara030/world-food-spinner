@@ -47,64 +47,108 @@
     "Samosa": { "ing": ["Pastry", "Potato", "Peas"], "step": ["Fill pastry triangles.", "Deep fry."] },
     "Palak Paneer": { "ing": ["Spinach", "Paneer Cheese", "Spices"], "step": ["Puree spinach.", "Simmer with cheese cubes."] },
     "Dosa": { "ing": ["Rice", "Lentil Batter"], "step": ["Spread thin on griddle.", "Cook until crispy."] }
+  "UK": {
+    "Fish and Chips": { "ing": ["Cod Fillets", "Flour", "Baking Powder", "Cold Beer", "Potatoes"], "step": ["Whisk flour and beer for batter", "Peel and fry potato chips", "Dip fish in batter and fry until gold"] },
+    "Shepherd's Pie": { "ing": ["Minced Lamb", "Potatoes", "Carrots", "Peas", "Butter"], "step": ["Cook meat and veg in gravy", "Mash potatoes with butter", "Top meat with mash and bake until peaked"] },
+    "Beef Wellington": { "ing": ["Beef Fillet", "Puff Pastry", "Mushroom Duxelles", "Prosciutto"], "step": ["Sear beef", "Wrap in mushrooms and pastry", "Bake until pastry is golden brown"] },
+    "Full English Breakfast": { "ing": ["Eggs", "Bacon", "Sausages", "Beans", "Mushrooms"], "step": ["Fry all ingredients in one large pan", "Toast bread", "Serve hot with tea"] },
+    "Sticky Toffee Pudding": { "ing": ["Dates", "Flour", "Brown Sugar", "Heavy Cream"], "step": ["Bake date sponge cake", "Boil sugar and cream for sauce", "Pour sauce over warm cake"] }
   },
-  "Spain": {
-    "Paella": { "ing": ["Rice", "Saffron", "Seafood"], "step": ["Cook rice in flat pan.", "Add seafood.", "Simmer."] }
+  "Germany": {
+    "Schnitzel": { "ing": ["Pork or Veal", "Flour", "Eggs", "Breadcrumbs"], "step": ["Pound meat thin", "Coat in flour, egg, then crumbs", "Pan fry in butter until crispy"] },
+    "Bratwurst with Sauerkraut": { "ing": ["German Sausages", "Fermented Cabbage", "Mustard"], "step": ["Grill sausages", "Warm the sauerkraut with apple juice", "Serve with spicy mustard"] },
+    "Sauerbraten": { "ing": ["Beef Roast", "Vinegar", "Red Wine", "Gingersnaps"], "step": ["Marinate beef for 3 days", "Slow roast until tender", "Thicken gravy with crushed gingersnaps"] },
+    "Pretzels (Laugenbrezel)": { "ing": ["Flour", "Yeast", "Lye Water or Baking Soda", "Coarse Salt"], "step": ["Twist dough into knots", "Dip in soda bath", "Bake at high heat until dark brown"] },
+    "Black Forest Cake": { "ing": ["Chocolate Sponge", "Cherries", "Whipped Cream", "Kirsch"], "step": ["Layer cake with cream and cherries", "Soak sponge in cherry brandy", "Top with chocolate shavings"] }
   },
-  "Greece": {
-    "Moussaka": { "ing": ["Eggplant", "Meat Sauce", "Bechamel"], "step": ["Layer ingredients.", "Bake until gold."] }
+  "Morocco": {
+    "Lamb Tagine": { "ing": ["Lamb", "Prunes", "Almonds", "Saffron", "Honey"], "step": ["Slow cook lamb in a conical pot", "Add honey and prunes", "Top with toasted almonds"] },
+    "Couscous Royale": { "ing": ["Semolina", "Chickpeas", "Zucchini", "Carrots", "Meat"], "step": ["Steam couscous over a stew", "Layer meat and veggies on top", "Serve with spicy Harissa"] },
+    "Pastilla": { "ing": ["Phyllo Dough", "Chicken", "Eggs", "Almonds", "Cinnamon"], "step": ["Cook chicken with spices", "Layer in dough with nuts", "Bake and dust with powdered sugar"] },
+    "Harira Soup": { "ing": ["Lentils", "Chickpeas", "Tomatoes", "Celery", "Beef"], "step": ["Stew legumes and meat", "Thicken with flour/water", "Finish with fresh lemon and cilantro"] },
+    "Zaalouk": { "ing": ["Eggplant", "Tomatoes", "Garlic", "Cumin", "Paprika"], "step": ["Roast eggplant", "Mash and sauté with tomatoes and spices", "Serve as a cold dip"] }
   },
+  "Russia": {
+    "Borscht": { "ing": ["Beets", "Cabbage", "Potatoes", "Beef", "Sour Cream"], "step": ["Boil beef and beets for deep red broth", "Add chopped veg", "Serve with a dollop of sour cream"] },
+    "Beef Stroganoff": { "ing": ["Beef Strips", "Mushrooms", "Onions", "Sour Cream"], "step": ["Sear beef and mushrooms", "Stir in sour cream and mustard", "Serve over egg noodles"] },
+    "Pelmeni": { "ing": ["Dough", "Minced Beef & Pork", "Onions"], "step": ["Fill small dough circles with raw meat", "Pinch edges", "Boil and serve with butter and dill"] },
+    "Blini": { "ing": ["Buckwheat Flour", "Yeast", "Milk", "Caviar or Jam"], "step": ["Make thin pancakes", "Fry until bubbly", "Fold with savory or sweet fillings"] },
+    "Salad Olivier": { "ing": ["Potatoes", "Peas", "Carrots", "Pickles", "Mayo"], "step": ["Boil and cube veggies", "Mix with lots of mayo and pickles", "Chill for 4 hours"] }
+  },
+  "Portugal": {
+    "Bacalhau à Brás": { "ing": ["Salted Cod", "Onions", "Matchstick Potatoes", "Eggs"], "step": ["Shred cod and sauté with onions", "Mix in fried potatoes", "Scramble eggs into the mix"] },
+    "Pastel de Nata": { "ing": ["Puff Pastry", "Egg Yolks", "Milk", "Cinnamon"], "step": ["Make a custard from yolks and sugar", "Fill pastry cups", "Bake at 300°C until charred on top"] },
+    "Piri Piri Chicken": { "ing": ["Whole Chicken", "Chili Peppers", "Garlic", "Lemon"], "step": ["Marinate chicken in chili oil", "Grill flat (spatchcock)", "Baste with extra spicy sauce"] },
+    "Caldo Verde": { "ing": ["Potatoes", "Kale", "Chorizo", "Olive Oil"], "step": ["Boil and mash potatoes into a soup", "Add thinly sliced kale", "Top with fried chorizo slices"] },
+    "Arroz de Marisco": { "ing": ["Rice", "Shrimp", "Clams", "Tomatoes", "Coriander"], "step": ["Cook rice in a wet seafood broth", "Add shellfish at the end", "Keep it soupy and fresh"] }
+  }
   "Turkey": {
-    "Kebab": { "ing": ["Lamb", "Spices", "Bread"], "step": ["Grill meat.", "Serve with flatbread."] }
+    "Iskender Kebab": { "ing": ["Thinly sliced Lamb", "Pita Bread", "Tomato Sauce", "Sheep Butter", "Yogurt"], "step": ["Grill meat and slice paper-thin", "Layer pita cubes on a plate", "Top with meat and hot tomato sauce", "Pour sizzling melted butter over at the table", "Serve with a side of thick yogurt"] },
+    "Baklava": { "ing": ["Phyllo Pastry", "Pistachios", "Butter", "Honey Syrup"], "step": ["Layer 40 sheets of pastry with butter", "Fill with crushed pistachios", "Bake until crispy and golden", "Pour cold sugar syrup over the hot pastry immediately"] },
+    "Hünkârbeğendi": { "ing": ["Lamb Cubes", "Eggplant", "Milk", "Cheese", "Flour"], "step": ["Slow-cook lamb in tomato sauce", "Roast and mash eggplants", "Make a bechamel with cheese and mix in eggplants", "Serve the meat on top of the creamy eggplant purée"] },
+    "Mercimek Çorbası": { "ing": ["Red Lentils", "Onions", "Carrots", "Cumin", "Dried Mint"], "step": ["Boil lentils and veg until soft", "Blend until perfectly smooth", "Sauté butter with chili and mint", "Drizzle the flavored butter over the soup"] },
+    "Lahmacun": { "ing": ["Flatbread Dough", "Minced Beef", "Peppers", "Parsley", "Lemon"], "step": ["Mix meat with finely minced veg/spices", "Spread paper-thin on dough circles", "Bake at very high heat for 3-5 mins", "Roll with fresh parsley and a squeeze of lemon"] }
   },
   "Egypt": {
-    "Koshary": { "ing": ["Rice", "Lentils", "Pasta", "Tomato Sauce"], "step": ["Mix cooked grains.", "Top with spicy sauce."] }
+    "Koshary": { "ing": ["Rice", "Brown Lentils", "Macaroni", "Chickpeas", "Fried Onions", "Spicy Tomato Sauce"], "step": ["Cook grains and pasta separately", "Layer them in a bowl", "Top with chickpeas and crispy onions", "Pour garlic-vinegar sauce and spicy tomato sauce over the top"] },
+    "Molokhia": { "ing": ["Minced Jute Leaves", "Chicken Broth", "Garlic", "Coriander", "Butter"], "step": ["Simmer leaves in rich chicken broth", "Sauté garlic and coriander in butter until gold", "Perform the 'shaha' (gasp) while pouring garlic into the soup", "Serve with rice or bread"] },
+    "Ful Medames": { "ing": ["Fava Beans", "Garlic", "Lemon", "Cumin", "Olive Oil"], "step": ["Slow-cook beans until creamy", "Mash with garlic and lemon juice", "Top with a generous pool of olive oil", "Serve with fresh baladi bread and scallions"] },
+    "Fatta": { "ing": ["Lamb Meat", "Rice", "Crispy Toasted Bread", "Garlic-Vinegar Sauce"], "step": ["Layer crispy bread, then rice", "Top with boiled lamb", "Drench in a sharp garlic and vinegar sauce", "Serve traditionally at celebrations"] },
+    "Hawawshi": { "ing": ["Minced Meat", "Baladi Bread", "Onions", "Chili Peppers"], "step": ["Season meat heavily with spices and onions", "Stuff into raw pita pockets", "Brush with butter and bake until bread is crunchy and meat is juicy"] }
   },
-  "USA": {
-    "Burger": { "ing": ["Beef", "Bun", "Cheese"], "step": ["Grill patty.", "Assemble."] }
+  "Greece": {
+    "Moussaka": { "ing": ["Eggplant", "Potatoes", "Minced Meat Sauce", "Bechamel", "Nutmeg"], "step": ["Layer fried potatoes and eggplant", "Add a thick layer of spiced meat sauce", "Top with creamy bechamel sauce", "Bake until the top is deep brown and bubbly"] },
+    "Spanakopita": { "ing": ["Phyllo Pastry", "Spinach", "Feta Cheese", "Green Onions"], "step": ["Mix chopped spinach with crumbled feta", "Brush pastry layers with olive oil", "Wrap filling in triangles or a large tray", "Bake until extremely flaky and gold"] },
+    "Souvlaki": { "ing": ["Pork or Chicken", "Lemon Juice", "Oregano", "Garlic", "Pita"], "step": ["Marinate meat cubes overnight", "Skewer and grill over charcoal", "Serve inside a pita with tomato, onion, and fries"] },
+    "Tzatziki": { "ing": ["Greek Yogurt", "Cucumber", "Garlic", "Dill", "Vinegar"], "step": ["Grate and squeeze all water from cucumber", "Mix into thick yogurt", "Add minced garlic and herbs", "Chill for 2 hours before serving"] },
+    "Pastitsio": { "ing": ["Tubular Pasta", "Ground Beef", "Tomato Sauce", "Cheese", "Bechamel"], "step": ["Mix pasta with egg and cheese", "Layer meat sauce in the middle", "Pour a thick bechamel on top", "Bake until it holds its shape when sliced"] }
   },
-  "Jordan": {
-    "Mansaf": { "ing": ["Lamb", "Jameed", "Rice"], "step": ["Cook lamb in dried yogurt.", "Serve on rice."] }
+  "Spain": {
+    "Seafood Paella": { "ing": ["Saffron", "Bomba Rice", "Shrimp", "Mussels", "Squid", "Peas"], "step": ["Sauté seafood and set aside", "Toast rice with saffron and broth", "Simmer without stirring to create the 'socarrat' (crust)", "Top with seafood and lemon wedges"] },
+    "Tortilla Española": { "ing": ["Eggs", "Potatoes", "Onions", "Olive Oil"], "step": ["Slow-fry potatoes and onions in oil until soft", "Drain and mix with beaten eggs", "Cook in a pan, flip carefully with a plate", "Serve at room temperature"] },
+    "Gambas al Ajillo": { "ing": ["Shrimp", "Garlic", "Chili Flakes", "Olive Oil", "Sherry"], "step": ["Sizzle garlic and chili in plenty of oil", "Add shrimp and cook for 2 mins", "Deglaze with a splash of sherry", "Serve sizzling with crusty bread"] },
+    "Gazpacho": { "ing": ["Tomatoes", "Cucumber", "Bell Pepper", "Garlic", "Stale Bread", "Sherry Vinegar"], "step": ["Blend all ingredients until smooth", "Strain for a silky texture", "Chill for at least 4 hours", "Serve in glasses with olive oil drizzle"] },
+    "Churros con Chocolate": { "ing": ["Flour", "Water", "Sugar", "Dark Chocolate", "Cream"], "step": ["Pipe dough into hot oil", "Fry until golden and toss in cinnamon-sugar", "Melt chocolate with cream for a thick dipping sauce"] }
   },
-  "Palestine": {
-    "Maqluba": { "ing": ["Rice", "Chicken", "Eggplant"], "step": ["Layer pot.", "Cook.", "Flip upside down."] }
+  "Thailand": {
+    "Pad Thai": { "ing": ["Rice Noodles", "Shrimp", "Tofu", "Peanuts", "Tamarind Paste", "Bean Sprouts"], "step": ["Soak noodles", "Stir-fry shrimp and tofu", "Add noodles and tamarind sauce", "Toss with sprouts and crushed peanuts"] },
+    "Tom Yum Goong": { "ing": ["Shrimp", "Lemongrass", "Galangal", "Kaffir Lime Leaves", "Chili"], "step": ["Boil aromatics in broth", "Add shrimp and mushrooms", "Season with lime juice and fish sauce", "Serve hot and spicy"] },
+    "Green Curry": { "ing": ["Chicken", "Green Curry Paste", "Coconut Milk", "Bamboo Shoots", "Thai Basil"], "step": ["Fry curry paste in coconut cream", "Add chicken and vegetables", "Simmer until tender", "Finish with a handful of fresh basil"] },
+    "Som Tum (Papaya Salad)": { "ing": ["Green Papaya", "Chili", "Garlic", "Peanuts", "Lime Juice"], "step": ["Shred the papaya", "Pound garlic and chili in a mortar", "Mix in peanuts, lime, and fish sauce", "Toss everything together vigorously"] },
+    "Mango Sticky Rice": { "ing": ["Sweet Rice", "Coconut Milk", "Ripe Mango", "Sugar"], "step": ["Steam the sticky rice", "Mix with sweetened coconut milk", "Serve with fresh sliced mango and extra coconut cream"] }
+  }
+  "Brazil": {
+    "Feijoada": { "ing": ["Black Beans", "Salted Pork Ribs", "Chouriço Sausage", "Bay Leaves", "Orange Slices"], "step": ["Soak beans overnight", "Slow-cook meat and beans together for 3 hours", "Serve with rice, sautéed kale, and orange slices to help digestion"] },
+    "Pão de Queijo": { "ing": ["Tapioca Flour", "Eggs", "Grated Queijo Minas (or Parmesan)", "Milk", "Oil"], "step": ["Boil milk, water, and oil", "Mix into tapioca flour to form a dough", "Add eggs and cheese", "Roll into small balls and bake until puffed and golden"] },
+    "Coxinha": { "ing": ["Shredded Chicken", "Catupiry Cheese", "Chicken Broth", "Flour", "Breadcrumbs"], "step": ["Make a thick dough using flour and chicken broth", "Fill dough circles with seasoned chicken and cheese", "Shape into a teardrop", "Bread and deep fry until crispy"] },
+    "Moqueca Baiana": { "ing": ["White Fish", "Shrimp", "Coconut Milk", "Dendê Oil (Palm Oil)", "Bell Peppers"], "step": ["Marinate fish in lime and garlic", "Layer peppers, onions, and fish in a clay pot", "Add coconut milk and palm oil", "Simmer gently until fish is tender"] },
+    "Brigadeiro": { "ing": ["Condensed Milk", "Cocoa Powder", "Butter", "Chocolate Sprinkles"], "step": ["Cook ingredients in a pan until the mixture thickens and pulls away from the bottom", "Let cool, then grease hands with butter", "Roll into balls and coat in sprinkles"] }
   },
-  "China": {
-    "Dim Sum": { "ing": ["Dough", "Shrimp/Meat"], "step": ["Fill dumplings.", "Steam in baskets."] }
+  "Argentina": {
+    "Asado (Grilled Beef)": { "ing": ["Short Ribs", "Flank Steak", "Coarse Sea Salt", "Chimichurri Sauce"], "step": ["Season meat only with coarse salt", "Grill over slow-burning wood or charcoal", "Cook until a crust forms", "Serve with fresh chimichurri"] },
+    "Empanadas Mendocinas": { "ing": ["Beef", "Onions", "Green Olives", "Hard-boiled Eggs", "Cumin", "Pastry Circles"], "step": ["Sauté meat with onions and spices", "Add chopped eggs and olives", "Fill pastry and fold the edges (repulgue)", "Bake until golden brown"] },
+    "Chimichurri Sauce": { "ing": ["Parsley", "Garlic", "Oregano", "Red Wine Vinegar", "Chili Flakes", "Oil"], "step": ["Finely chop the herbs and garlic", "Mix with vinegar and spices", "Whisk in oil and let sit for 24 hours for best flavor"] },
+    "Milanesa Napolitana": { "ing": ["Thin Beef Cutlets", "Breadcrumbs", "Tomato Sauce", "Ham", "Mozzarella"], "step": ["Bread and fry the beef cutlets", "Top with a slice of ham, tomato sauce, and cheese", "Broil in the oven until the cheese bubbles"] },
+    "Alfajores": { "ing": ["Cornstarch", "Flour", "Dulce de Leche", "Shredded Coconut"], "step": ["Bake shortbread-style cookies", "Sandwich two cookies together with a thick layer of Dulce de Leche", "Roll the edges in coconut"] }
   },
-  "Brazil": { "Feijoada": { "ing": ["Black Beans", "Pork"], "step": ["Stew for 4 hours."] } },
-  "Argentina": { "Asado": { "ing": ["Beef", "Salt"], "step": ["Slow grill over coal."] } },
-  "Morocco": { "Tagine": { "ing": ["Lamb", "Prunes", "Couscous"], "step": ["Slow cook in clay pot."] } },
-  "UK": { "Fish & Chips": { "ing": ["Fish", "Batter", "Potatoes"], "step": ["Fry fish.", "Fry chips."] } },
-  "Germany": { "Schnitzel": { "ing": ["Pork", "Breadcrumbs"], "step": ["Pound meat thin.", "Bread and fry."] } },
-  "Portugal": { "Bacalhau": { "ing": ["Cod", "Potato", "Egg"], "step": ["Shred cod.", "Mix and fry."] } },
-  "Peru": { "Ceviche": { "ing": ["Raw Fish", "Lime"], "step": ["Marinate in citrus."] } },
-  "Colombia": { "Arepa": { "ing": ["Cornmeal", "Cheese"], "step": ["Form patties.", "Grill."] } },
-  "Jamaica": { "Jerk Chicken": { "ing": ["Chicken", "Allspice", "Chili"], "step": ["Marinate and grill."] } },
-  "Ethiopia": { "Injera": { "ing": ["Teff Flour", "Water"], "step": ["Ferment and cook like a crepe."] } },
-  "Nigeria": { "Jollof Rice": { "ing": ["Rice", "Tomato", "Chili"], "step": ["Cook rice in tomato base."] } },
-  "South Africa": { "Bobotie": { "ing": ["Meat", "Egg Custard"], "step": ["Bake spiced meat.", "Top with egg."] } },
-  "Canada": { "Poutine": { "ing": ["Fries", "Curds", "Gravy"], "step": ["Mix and serve hot."] } },
-  "Australia": { "Meat Pie": { "ing": ["Pastry", "Beef"], "step": ["Fill and bake."] } },
-  "Indonesia": { "Satay": { "ing": ["Meat", "Peanut Sauce"], "step": ["Skew and grill."] } },
-  "Philippines": { "Adobo": { "ing": ["Chicken", "Soy Sauce", "Vinegar"], "step": ["Simmer until tender."] } },
-  "Pakistan": { "Nihari": { "ing": ["Beef", "Spices", "Flour"], "step": ["Slow cook overnight."] } },
-  "Iran": { "Tahdig": { "ing": ["Rice", "Saffron", "Oil"], "step": ["Crisp rice at pot bottom."] } },
-  "Russia": { "Borscht": { "ing": ["Beetroot", "Cabbage"], "step": ["Stew veggies.", "Serve with sour cream."] } },
-  "Poland": { "Pierogi": { "ing": ["Dough", "Potato"], "step": ["Fill and boil."] } },
-  "Sweden": { "Meatballs": { "ing": ["Beef", "Cream", "Jam"], "step": ["Fry meatballs.", "Make gravy."] } },
-  "Switzerland": { "Fondue": { "ing": ["Cheese", "Wine", "Bread"], "step": ["Melt cheese.", "Dip bread."] } },
-  "Belgium": { "Waffles": { "ing": ["Batter", "Sugar"], "step": ["Cook in iron."] } },
-  "Netherlands": { "Stamppot": { "ing": ["Potato", "Kale"], "step": ["Mash and serve with sausage."] } },
-  "Saudi Arabia": { "Kabsa": { "ing": ["Rice", "Chicken"], "step": ["Cook together in spices."] } },
-  "UAE": { "Machboos": { "ing": ["Rice", "Seafood"], "step": ["Spiced rice platter."] } },
-  "Iraq": { "Dolma": { "ing": ["Veg", "Rice", "Meat"], "step": ["Stuff veg and steam."] } },
-  "Algeria": { "Couscous": { "ing": ["Semolina", "Veg"], "step": ["Steam over stew."] } },
-  "Tunisia": { "Brik": { "ing": ["Pastry", "Egg"], "step": ["Fold and deep fry."] } },
-  "Afghanistan": { "Mantu": { "ing": ["Dough", "Meat", "Yogurt"], "step": ["Steam dumplings."] } },
-  "Vietnam": { "Pho": { "ing": ["Broth", "Rice Noodles"], "step": ["Pour hot broth over noodles."] } },
-  "Thailand": { "Pad Thai": { "ing": ["Noodles", "Peanuts"], "step": ["Stir fry."] } },
-  "Korea": { "Kimchi": { "ing": ["Cabbage", "Chili"], "step": ["Ferment."] } },
-  "Norway": { "Salmon": { "ing": ["Fish", "Dill"], "step": ["Sear or cure."] } },
-  "Ireland": { "Stew": { "ing": ["Lamb", "Potato"], "step": ["Simmer 2 hours."] } }
-}
+  "Canada": {
+    "Poutine": { "ing": ["French Fries", "Fresh Cheese Curds", "Beef Gravy"], "step": ["Fry potatoes until extra crispy", "Scatter room-temperature cheese curds over the hot fries", "Pour hot, thick beef gravy over the top so the curds soften but don't melt"] },
+    "Nanaimo Bars": { "ing": ["Graham Cracker Crumbs", "Coconut", "Custard Powder", "Chocolate", "Butter"], "step": ["Press chocolate-coconut crumb base into pan", "Spread a layer of yellow custard icing", "Top with melted chocolate ganache and chill"] },
+    "Tourtière (Meat Pie)": { "ing": ["Ground Pork", "Ground Beef", "Cinnamon", "Clove", "Pie Crust"], "step": ["Cook meat with onions and savory spices", "Fill a double-crust pie", "Bake until the pastry is flaky and brown"] },
+    "Peameal Bacon Sandwich": { "ing": ["Cornmeal-crusted Bacon", "Kaiser Bun", "Honey Mustard"], "step": ["Slice the peameal bacon into thick rounds", "Grill until the edges are caramelized", "Serve on a fresh bun with a bit of mustard"] },
+    "BeaverTails": { "ing": ["Fried Dough", "Cinnamon", "Sugar", "Lemon Juice"], "step": ["Stretch yeast dough into an oval 'tail' shape", "Deep fry until puffed", "Coat in cinnamon sugar and a squeeze of lemon while hot"] }
+  },
+  "Australia": {
+    "Meat Pie": { "ing": ["Minced Beef", "Gravy", "Shortcrust Pastry", "Puff Pastry"], "step": ["Thicken beef mince in a rich gravy", "Line a tin with shortcrust and fill with meat", "Top with a layer of puff pastry", "Bake and serve with tomato sauce (ketchup)"] },
+    "Lamingtons": { "ing": ["Sponge Cake", "Chocolate Icing", "Desiccated Coconut"], "step": ["Cut sponge cake into squares", "Dip each square in thin chocolate icing", "Roll in coconut and let set"] },
+    "Chicken Parmi": { "ing": ["Chicken Breast", "Breadcrumbs", "Tomato Sauce", "Mozzarella"], "step": ["Crumb and fry the chicken", "Top with tomato sauce and cheese", "Bake until golden. Traditionally served with chips and salad"] },
+    "Pavlova": { "ing": ["Egg Whites", "Sugar", "Cornstarch", "Whipped Cream", "Passionfruit"], "step": ["Whisk whites and sugar to stiff peaks", "Bake at a low temperature to keep the center marshmallow-like", "Top with cream and fresh fruit"] },
+    "Barramundi with Lemon Myrtle": { "ing": ["Barramundi Fillet", "Lemon Myrtle Spice", "Butter", "Macadamia Nuts"], "step": ["Season fish with lemon myrtle", "Pan-sear in butter until skin is crisp", "Top with crushed macadamias for crunch"] }
+  },
+  "Indonesia": {
+    "Nasi Goreng": { "ing": ["Rice", "Kecap Manis (Sweet Soy Sauce)", "Shrimp Paste", "Fried Egg"], "step": ["Stir-fry day-old rice with aromatics and shrimp paste", "Add sweet soy sauce for color and flavor", "Serve with a sunny-side-up egg and prawn crackers"] },
+    "Beef Rendang": { "ing": ["Beef", "Coconut Milk", "Lemongrass", "Galangal", "Chili"], "step": ["Slow-cook beef in coconut milk and spices", "Continue cooking until the liquid evaporates and the meat fries in its own fat", "Serve when dark and tender"] },
+    "Satay Ayam": { "ing": ["Chicken Thighs", "Peanut Butter", "Soy Sauce", "Lime", "Skewers"], "step": ["Thread marinated chicken onto sticks", "Grill over high heat", "Serve with a thick, spicy peanut dipping sauce"] },
+    "Gado-Gado": { "ing": ["Tofu", "Tempeh", "Boiled Egg", "Steamed Veggies", "Peanut Dressing"], "step": ["Prepare assorted blanched vegetables", "Fry tofu and tempeh", "Drizzle everything with a warm, savory peanut sauce"] },
+    "Bakso": { "ing": ["Beef Meatballs", "Clear Broth", "Yellow Noodles", "Bok Choy"], "step": ["Simmer meatballs in a rich beef broth", "Assemble noodles and greens in a bowl", "Pour broth over and top with fried shallots"] }
+  }
