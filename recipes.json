@@ -1,18 +1,51 @@
-{
-  "Syria": {
-    "Shishbarak": {
-      "ing": ["Dough", "Meat", "Yogurt"],
-      "step": ["Cook meat", "Fill dough", "Boil in yogurt"]
-    },
-    "Kibbeh": {
-      "ing": ["Bulgur", "Meat"],
-      "step": ["Mash bulgur", "Stuff meat", "Fry"]
+let recipes = {};
+
+// 1. Fetch the JSON file
+async function loadRecipes() {
+    try {
+        const response = await fetch('recipes.json');
+        recipes = await response.json();
+        
+        // Fill the dropdown
+        const select = document.getElementById('countrySelect');
+        const countries = Object.keys(recipes).sort();
+        select.innerHTML = countries.map(c => `<option value="${c}">${c}</option>`).join('');
+    } catch (e) {
+        console.error("Could not load recipes.json", e);
     }
-  },
-  "Italy": {
-    "Pizza": {
-      "ing": ["Flour", "Tomato", "Cheese"],
-      "step": ["Knead dough", "Add toppings", "Bake"]
-    }
-  }
 }
+
+// 2. Pick a random recipe (The Shuffle)
+function shuffleRecipe() {
+    const card = document.getElementById('cardInner');
+    card.classList.remove('is-flipped'); // Always flip back to front first
+    
+    setTimeout(() => {
+        const countries = Object.keys(recipes);
+        const randomCountry = countries[Math.floor(Math.random() * countries.length)];
+        const foods = Object.keys(recipes[randomCountry]);
+        const randomFood = foods[Math.floor(Math.random() * foods.length)];
+        
+        displayRecipe(randomCountry, randomFood);
+    }, 150);
+}
+
+// 3. Update the text on the card
+function displayRecipe(country, foodName) {
+    const data = recipes[country][foodName];
+    document.getElementById('country-badge').innerText = country;
+    document.getElementById('recipe-title').innerText = foodName;
+    
+    document.getElementById('ingredients-list').innerHTML = 
+        data.ing.map(i => `<li>${i}</li>`).join('');
+    document.getElementById('steps-list').innerHTML = 
+        data.step.map(s => `<li>${s}</li>`).join('');
+}
+
+// 4. Toggle the flip
+function flipCard() {
+    document.getElementById('cardInner').classList.toggle('is-flipped');
+}
+
+// Start the app
+loadRecipes();
