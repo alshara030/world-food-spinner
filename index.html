@@ -1,9 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavor Passport</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
 <body>
+    <div class="glass-bg"></div>
+    
     <div class="app-container">
         <header>
-            <h1>🌍 Flavor Passport</h1>
-            <div class="search-box">
-                <input type="text" id="countrySearch" placeholder="Search a country..." onkeyup="filterCountries()">
+            <div class="logo">🌍 Flavor<span>Passport</span></div>
+            <div class="search-container">
+                <input type="text" id="countrySearch" placeholder="Where do you want to go?" onkeyup="filterCountries()">
             </div>
         </header>
 
@@ -11,26 +22,29 @@
             <div id="recipeCard" class="recipe-card" onclick="flipCard()">
                 <div class="card-inner" id="cardInner">
                     <div class="card-front">
-                        <div id="country-badge" class="badge">Tap Shuffle</div>
-                        <h2 id="recipe-title">Ready to Travel?</h2>
-                        <div class="tap-hint">Click card to reveal recipe 👆</div>
+                        <span id="country-badge" class="tag">Tap Shuffle</span>
+                        <h1 id="recipe-title">Ready for a Culinary Trip?</h1>
+                        <p class="hint">Tap to flip</p>
                     </div>
                     <div class="card-back">
-                        <h3>Ingredients</h3>
-                        <ul id="ingredients-list"></ul>
-                        <hr>
-                        <h3>Method</h3>
-                        <ol id="steps-list"></ol>
+                        <div class="scroll-area">
+                            <h3>🛒 Ingredients</h3>
+                            <ul id="ingredients-list"></ul>
+                            <h3>👨‍🍳 Method</h3>
+                            <ol id="steps-list"></ol>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="controls">
-            <button onclick="shuffleRecipe()" class="shuffle-btn">🎲 Shuffle Recipes</button>
-            <select id="countrySelect" onchange="updateSelection()"></select>
+        <div class="footer-controls">
+            <button onclick="shuffleRecipe()" class="btn-primary">🎲 Shuffle</button>
+            <div class="custom-select">
+                <select id="countrySelect" onchange="updateSelection()"></select>
+            </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
+</html>
