@@ -152,3 +152,125 @@
     "Gado-Gado": { "ing": ["Tofu", "Tempeh", "Boiled Egg", "Steamed Veggies", "Peanut Dressing"], "step": ["Prepare assorted blanched vegetables", "Fry tofu and tempeh", "Drizzle everything with a warm, savory peanut sauce"] },
     "Bakso": { "ing": ["Beef Meatballs", "Clear Broth", "Yellow Noodles", "Bok Choy"], "step": ["Simmer meatballs in a rich beef broth", "Assemble noodles and greens in a bowl", "Pour broth over and top with fried shallots"] }
   }
+  "Vietnam": {
+    "Beef Pho": { "ing": ["Rice Noodles", "Beef Brisket", "Star Anise", "Cinnamon", "Ginger", "Bean Sprouts"], "step": ["Char ginger and onions", "Simmer beef and spices for 6 hours to make broth", "Pour boiling broth over raw beef slices and noodles", "Top with fresh herbs and lime"] },
+    "Banh Mi": { "ing": ["French Baguette", "Pork Pâté", "Pickled Daikon & Carrots", "Cilantro", "Cucumber"], "step": ["Crisp the bread in the oven", "Spread pâté and mayo", "Layer with meat and pickled vegetables", "Finish with fresh cilantro and chili"] },
+    "Bun Cha": { "ing": ["Pork Patties", "Pork Belly", "Rice Vermicelli", "Fish Sauce", "Garlic"], "step": ["Grill pork over charcoal until charred", "Make a dipping sauce with fish sauce, sugar, and vinegar", "Serve meat in the sauce bowl with noodles and herbs on the side"] },
+    "Goi Cuon (Spring Rolls)": { "ing": ["Rice Paper", "Shrimp", "Pork", "Vermicelli", "Mint"], "step": ["Dip rice paper in warm water", "Layer shrimp, pork, and herbs", "Roll tightly", "Serve with hoisin-peanut dipping sauce"] },
+    "Vietnamese Iced Coffee": { "ing": ["Dark Roast Coffee", "Condensed Milk", "Ice"], "step": ["Brew coffee using a traditional Phin filter", "Pour over a glass containing condensed milk", "Stir well and pour over ice"] }
+  },
+  "Korea": {
+    "Bibimbap": { "ing": ["Rice", "Beef", "Spinach", "Bean Sprouts", "Gochujang (Chili Paste)", "Egg"], "step": ["Sauté each vegetable separately", "Cook beef with soy sauce", "Place rice in a bowl and top with veggies and meat", "Add a sunny-side-up egg and mix with Gochujang"] },
+    "Bulgogi": { "ing": ["Thinly Sliced Ribeye", "Pear Juice", "Soy Sauce", "Sesame Oil", "Garlic"], "step": ["Marinate beef in pear juice and soy sauce for 4 hours", "Stir-fry at very high heat", "Serve with lettuce leaves for wrapping"] },
+    "Kimchi Jjigae": { "ing": ["Aged Kimchi", "Pork Belly", "Tofu", "Green Onions"], "step": ["Fry pork and kimchi together", "Add water and simmer until the cabbage is soft", "Add tofu at the end", "Serve bubbling hot with rice"] },
+    "Japchae": { "ing": ["Glass Noodles", "Spinach", "Carrots", "Mushrooms", "Soy Sauce"], "step": ["Boil noodles until translucent", "Stir-fry vegetables and meat", "Toss everything together with sesame oil and soy sauce"] },
+    "Korean Fried Chicken": { "ing": ["Chicken Wings", "Cornstarch", "Ginger", "Gochujang", "Honey"], "step": ["Double-fry the wings for extra crunch", "Coat in a sticky spicy-sweet glaze", "Garnish with sesame seeds"] }
+  },
+  "Philippines": {
+    "Chicken Adobo": { "ing": ["Chicken", "Soy Sauce", "Vinegar", "Peppercorns", "Bay Leaves", "Garlic"], "step": ["Simmer chicken in soy sauce and vinegar with garlic", "Cook until the sauce reduces and the chicken is tender", "Sear the chicken for extra texture"] },
+    "Sinigang": { "ing": ["Pork", "Tamarind", "Water Spinach", "Radish", "Tomatoes"], "step": ["Boil pork until tender", "Add tamarind for a sour base", "Toss in vegetables", "Serve hot as a comforting soup"] },
+    "Lumpia": { "ing": ["Ground Pork", "Carrots", "Spring Roll Wrappers", "Garlic"], "step": ["Mix filling and roll tightly in wrappers", "Deep fry until golden brown", "Serve with sweet chili dipping sauce"] },
+    "Pancit Guisado": { "ing": ["Bihon Noodles", "Canton Noodles", "Shrimp", "Cabbage", "Soy Sauce"], "step": ["Sauté meat and vegetables", "Add broth and noodles", "Cook until liquid is absorbed", "Serve with calamansi lime"] },
+    "Lechon Kawali": { "ing": ["Pork Belly", "Salt", "Peppercorns", "Oil"], "step": ["Boil pork until soft", "Air dry the skin", "Deep fry the whole slab until the skin crackles", "Chop into bite-sized pieces"] }
+  },
+  "Nigeria": {
+    "Jollof Rice": { "ing": ["Long Grain Rice", "Tomatoes", "Red Bell Peppers", "Scotch Bonnet", "Onions", "Thyme"], "step": ["Blend peppers and tomatoes to make a base", "Fry the base in oil until thick", "Add parboiled rice and stock", "Steam until rice is tender and smoky"] },
+    "Egusi Soup": { "ing": ["Melon Seeds (Egusi)", "Spinach", "Palm Oil", "Beef", "Stock Fish"], "step": ["Toast and grind melon seeds", "Cook in palm oil to form clumps", "Add stock and meat", "Stir in spinach at the end"] },
+    "Pounded Yam": { "ing": ["Puna Yam", "Water"], "step": ["Boil yam until very soft", "Pound in a mortar or use a mixer until it becomes a smooth, stretchy dough", "Serve as 'swallow' with soups"] },
+    "Suya": { "ing": ["Beef Strips", "Yaji Spice (Peanut Powder & Chili)", "Onions"], "step": ["Coat beef in spicy peanut rub", "Skewer and grill over open flame", "Serve with raw onions and extra spice"] },
+    "Fried Plantain (Dodo)": { "ing": ["Ripe Plantains", "Vegetable Oil", "Salt"], "step": ["Slice plantains diagonally", "Fry in hot oil until edges are caramelized and dark brown", "Serve as a side dish"] }
+  },
+  "Ethiopia": {
+    "Doro Wat": { "ing": ["Chicken", "Berbere Spice", "Niter Kibbeh (Spiced Butter)", "Hard-boiled Eggs", "Onions"], "step": ["Slow-cook onions for hours without oil", "Add berbere and butter", "Simmer chicken in the thick sauce", "Add peeled eggs at the end"] },
+    "Injera": { "ing": ["Teff Flour", "Water"], "step": ["Mix flour and water and ferment for 3 days", "Pour onto a flat griddle like a large crepe", "Cover and steam until holes form on top"] },
+    "Misir Wot": { "ing": ["Red Lentils", "Berbere Spice", "Garlic", "Onions"], "step": ["Sauté onions and garlic", "Add lentils and plenty of berbere", "Simmer until lentils are soft and spicy"] },
+    "Gomen": { "ing": ["Collard Greens", "Garlic", "Ginger", "Turmeric"], "step": ["Finely chop the greens", "Sauté with aromatics and turmeric", "Serve alongside other stews on injera"] },
+    "Kitfo": { "ing": ["Lean Beef", "Niter Kibbeh", "Mitmita Spice"], "step": ["Finely mince the beef", "Warm the spiced butter", "Toss meat in butter and spices (traditionally served raw or 'leb-leb' slightly warmed)"] }
+  }
+  "Pakistan": {
+    "Beef Nihari": { "ing": ["Beef Shank", "Bone Marrow", "Wheat Flour", "Ginger", "Nihari Masala"], "step": ["Slow-cook beef with spices overnight", "Thicken the gravy with a flour slurry", "Top with julienned ginger, green chilies, and lemon juice"] },
+    "Chicken Karahi": { "ing": ["Chicken", "Tomatoes", "Ginger", "Garlic", "Green Chilies"], "step": ["Fry chicken in high heat", "Add lots of tomatoes and ginger (no onions)", "Cook until the oil separates and the sauce is thick"] },
+    "Seekh Kebab": { "ing": ["Ground Beef", "Onions", "Cilantro", "Cumin", "Paprika"], "step": ["Mix meat with finely chopped aromatics", "Mold onto long metal skewers", "Grill over charcoal for a smoky finish"] },
+    "Samosa Chaat": { "ing": ["Potato Samosas", "Chickpeas", "Yogurt", "Tamarind Chutney"], "step": ["Crush samosas in a bowl", "Top with warm chickpea curry", "Drizzle with yogurt and sweet/spicy chutneys"] },
+    "Haleem": { "ing": ["Beef", "Barley", "Wheat", "Lentils", "Spices"], "step": ["Slow-cook meat and grains together", "Pound/mash until the consistency is like a thick paste", "Garnish with fried onions and mint"] }
+  },
+  "Iran": {
+    "Ghormeh Sabzi": { "ing": ["Lamb", "Dried Limes", "Kidney Beans", "Parsley", "Cilantro", "Fenugreek"], "step": ["Sauté a massive amount of herbs until dark", "Simmer with lamb and beans", "Add pierced dried limes for a distinct sour taste"] },
+    "Tahdig": { "ing": ["Basmati Rice", "Saffron", "Yogurt", "Oil or Butter"], "step": ["Parboil rice", "Mix a portion with saffron and yogurt", "Layer at the bottom of a greased pot", "Steam until a golden, crunchy crust forms"] },
+    "Fesenjan": { "ing": ["Chicken", "Walnuts", "Pomegranate Molasses", "Onions"], "step": ["Grind walnuts into a fine paste", "Slow-cook with pomegranate molasses until the sauce is dark and thick", "Add seared chicken and simmer"] },
+    "Joojeh Kebab": { "ing": ["Chicken", "Saffron", "Lemon Juice", "Onions", "Yogurt"], "step": ["Marinate chicken in saffron and lemon overnight", "Skewer and grill", "Serve with saffron rice and grilled tomatoes"] },
+    "Kashk-e Bademjan": { "ing": ["Eggplant", "Kashk (Whey)", "Fried Onions", "Mint", "Walnuts"], "step": ["Fry or roast eggplants and mash them", "Stir in kashk", "Top with caramelized onions, crispy mint, and walnuts"] }
+  },
+  "Peru": {
+    "Ceviche": { "ing": ["Raw White Fish", "Lime Juice", "Red Onion", "Cilantro", "Habanero"], "step": ["Cut fish into cubes", "Marinate in lime juice for 10 minutes (the acid 'cooks' the fish)", "Toss with onions and chili", "Serve with sweet potato and corn"] },
+    "Lomo Saltado": { "ing": ["Beef Strips", "Soy Sauce", "Tomatoes", "Onions", "French Fries"], "step": ["Stir-fry beef at very high heat", "Add onions and tomatoes", "Toss in the fried potatoes", "Serve with a side of white rice (double carbs!)"] },
+    "Aji de Gallina": { "ing": ["Shredded Chicken", "Yellow Chili Pepper (Aji Amarillo)", "Bread", "Milk", "Walnuts"], "step": ["Make a creamy sauce by blending chilies, soaked bread, and milk", "Mix with chicken", "Serve with hard-boiled eggs and olives"] },
+    "Causa Rellena": { "ing": ["Yellow Potatoes", "Lime", "Chicken Salad", "Avocado"], "step": ["Mash potatoes with lime and chili paste", "Layer potato, then avocado, then chicken salad", "Serve cold as a beautiful stacked cake"] },
+    "Anticuchos": { "ing": ["Beef Heart", "Vinegar", "Garlic", "Cumin", "Aji Panca"], "step": ["Marinate meat in spicy vinegar sauce", "Skewer and grill quickly over high heat", "Serve with boiled potatoes and corn"] }
+  },
+  "Colombia": {
+    "Bandeja Paisa": { "ing": ["Rice", "Beans", "Chorizo", "Chicharrón", "Avocado", "Fried Egg"], "step": ["Cook red beans with pork", "Fry the pork belly until skin is crunchy", "Assemble the massive platter with all components", "Top with a fried egg"] },
+    "Arepas de Queso": { "ing": ["Pre-cooked Cornmeal", "Mozzarella", "Butter", "Salt"], "step": ["Mix cornmeal with water and cheese", "Form into thick patties", "Grill or pan-fry until golden and the cheese inside is melted"] },
+    "Ajiaco": { "ing": ["Chicken", "Three types of Potatoes", "Corn", "Guascas (Herb)", "Capers"], "step": ["Boil chicken with potatoes until the potatoes break down and thicken the soup", "Add corn on the cob", "Finish with guascas and a dollop of cream"] },
+    "Sancocho": { "ing": ["Beef or Chicken", "Plantain", "Yucca", "Corn", "Cilantro"], "step": ["Boil meat and hearty root vegetables in a large pot", "Simmer until the broth is rich", "Serve with a side of rice and avocado"] },
+    "Pandebono": { "ing": ["Cassava Starch", "Corn Flour", "Cheese", "Egg"], "step": ["Mix ingredients into a dough", "Roll into balls", "Bake until puffed and lightly browned. Best served warm with coffee"] }
+  },
+  "Jamaica": {
+    "Jerk Chicken": { "ing": ["Chicken", "Scotch Bonnet Peppers", "Allspice", "Thyme", "Ginger"], "step": ["Blend peppers and spices into a thick paste", "Marinate chicken for 24 hours", "Slow-grill, ideally over pimento wood, until charred and smoky"] },
+    "Ackee and Saltfish": { "ing": ["Salted Cod", "Ackee Fruit", "Onions", "Thyme", "Scotch Bonnet"], "step": ["Boil and flake the cod", "Sauté with aromatics", "Gently fold in the ackee (it looks like scrambled eggs)", "Serve with fried dumplings"] },
+    "Curry Goat": { "ing": ["Goat Meat", "Jamaican Curry Powder", "Potatoes", "Ginger", "Garlic"], "step": ["Season meat and let it sit", "Slow-braise until the meat falls off the bone", "Add potatoes to thicken the sauce"] },
+    "Rice and Peas": { "ing": ["Long Grain Rice", "Kidney Beans", "Coconut Milk", "Thyme", "Scallions"], "step": ["Boil beans in coconut milk and water", "Add rice and aromatics", "Steam until the rice is fluffy and flavored with coconut"] },
+    "Beef Patty": { "ing": ["Turmeric Pastry", "Spiced Minced Beef", "Breadcrumbs"], "step": ["Make a yellow flaky dough using turmeric", "Fill with savory, spicy beef", "Fold into half-moons and bake until crispy"] }
+  }
+  },
+  "Saudi Arabia": {
+    "Kabsa": { "ing": ["Chicken or Lamb", "Long Grain Rice", "Kabsa Spices", "Raisins", "Almonds"], "step": ["Boil meat with heavy spices", "Remove meat and cook rice in the same broth", "Roast the meat separately", "Serve rice topped with meat, nuts, and raisins"] },
+    "Jareesh": { "ing": ["Crushed Wheat", "Yogurt", "Chicken", "Caramelized Onions"], "step": ["Slow-cook wheat and chicken until it reaches a porridge consistency", "Stir in yogurt", "Top with a layer of onions fried in ghee"] },
+    "Saleeg": { "ing": ["Chicken", "Rice", "Milk", "Mastic", "Cardamom"], "step": ["Boil chicken", "Cook rice in chicken broth, then add milk and stir until creamy (like risotto)", "Place roasted chicken on top"] },
+    "Mutabbaq": { "ing": ["Thin Dough", "Minced Meat", "Eggs", "Leeks", "Tomatoes"], "step": ["Mix meat, eggs, and veg", "Fold inside paper-thin dough squares", "Pan-fry until crispy and golden"] },
+    "Maamoul": { "ing": ["Semolina", "Dates", "Butter", "Rose Water"], "step": ["Make a crumbly dough", "Stuff with date paste", "Press into wooden molds", "Bake and dust with powdered sugar"] }
+ }
+ },
+  "Iraq": {
+    "Masgouf": { "ing": ["Carp Fish", "Tamarind", "Turmeric", "Salt"], "step": ["Butterfly the fish and salt it", "Grill vertically next to an open fire (wood flames)", "Baste with tamarind and turmeric sauce", "Serve with amba (mango pickle)"] },
+    "Dolma": { "ing": ["Onions", "Grape Leaves", "Zucchini", "Rice", "Lamb Ribs"], "step": ["Stuff various vegetables and leaves with meat/rice", "Place lamb ribs at the bottom of the pot", "Stack stuffed veg tightly", "Cook with pomegranate molasses"] },
+    "Quzi": { "ing": ["Whole Lamb", "Rice", "Nuts", "Raisins", "Spices"], "step": ["Slow-roast lamb until tender", "Serve on a massive bed of spiced rice", "Garnish heavily with roasted nuts and boiled eggs"] },
+    "Kleicha": { "ing": ["Flour", "Date Paste", "Cardamom", "Nigella Seeds"], "step": ["Make a spiced dough", "Fill with date paste and roll into spirals", "Bake until golden", "Traditionally served during Eid"] },
+    "Tashreeb": { "ing": ["Lamb Shanks", "Chickpeas", "Bread", "Tomato Broth"], "step": ["Slow-cook lamb in a tomato and loomi broth", "Tear bread into pieces in a bowl", "Pour the meat and broth over the bread until soaked"] }
+  }
+ },
+  "UAE": {
+    "Machboos": { "ing": ["Fish or Shrimp", "Rice", "Bezar Spice Mix", "Loomi (Dried Lime)"], "step": ["Sauté onions and bezar spices", "Add dried lime and seafood", "Cook rice directly in the spiced seafood broth", "Serve on a large shared platter"] },
+    "Harees": { "ing": ["Wheat", "Lamb", "Salt", "Ghee"], "step": ["Soak wheat overnight", "Boil meat and wheat for hours", "Beat the mixture until smooth and elastic", "Top with melted ghee"] },
+    "Luqaimat": { "ing": ["Flour", "Yeast", "Date Syrup", "Sesame Seeds"], "step": ["Deep-fry small balls of leavened dough", "Drench in sticky date syrup", "Sprinkle with sesame seeds while hot"] },
+    "Balaleet": { "ing": ["Vermicelli", "Eggs", "Sugar", "Cardamom", "Saffron"], "step": ["Boil and then sweeten vermicelli with saffron and cardamom", "Top with a thin savory omelet", "Serve as a sweet-and-salty breakfast"] },
+    "Thareed": { "ing": ["Lamb", "Vegetables", "Rigag (Thin Bread)", "Tomato Sauce"], "step": ["Make a rich lamb and vegetable stew", "Layer thin crispy bread in a bowl", "Pour the stew over the bread so it softens"] }
+  },
+  "Algeria": {
+    "Couscous Algerien": { "ing": ["Semolina", "Lamb", "Chickpeas", "Zucchini", "Carrots", "Ras el Hanout"], "step": ["Steam couscous over a boiling meat stew", "Cook lamb with chickpeas and vegetables in a red sauce", "Fluff the couscous with butter", "Serve meat and veg on top with plenty of broth"] },
+    "Chakhchoukha": { "ing": ["Thin Flatbread (Rougeg)", "Lamb", "Chickpeas", "Dried Apricots", "Chili"], "step": ["Tear flatbread into small pieces", "Make a spicy lamb stew with chickpeas", "Pour the stew over the bread pieces until they absorb the sauce"] },
+    "Bourek": { "ing": ["Dioul Pastry Sheets", "Minced Meat", "Potatoes", "Eggs", "Parsley"], "step": ["Mix cooked meat with mashed potatoes and herbs", "Roll tightly in pastry sheets", "Deep fry until golden and crispy", "Serve with lemon wedges"] },
+    "Rechta": { "ing": ["Thin Noodles", "Chicken", "Turnips", "Chickpeas", "Cinnamon"], "step": ["Steam the handmade noodles", "Cook chicken in a white sauce with turnips and cinnamon", "Serve the noodles topped with the chicken and turnips"] },
+    "Tajine Zitoun": { "ing": ["Chicken", "Green Olives", "Carrots", "Mushrooms", "Lemon"], "step": ["Boil olives twice to remove salt", "Sauté chicken with onions and carrots", "Simmer olives and chicken in a saffron sauce", "Finish with a squeeze of lemon"] }
+  },
+ "Tunisia": {
+    "Couscous au Poisson": { "ing": ["Semolina", "Fish (Grouper or Sea Bass)", "Bell Peppers", "Pumpkin", "Harissa"], "step": ["Make a spicy red tomato base with Harissa", "Steam couscous over the sauce", "Poach the fish and vegetables in the sauce", "Combine and serve hot"] },
+    "Lablabi": { "ing": ["Chickpeas", "Stale Bread", "Cumin", "Garlic", "Tuna", "Poached Egg"], "step": ["Tear bread into a bowl", "Pour hot chickpea broth over the bread", "Add cumin, garlic, and Harissa", "Top with tuna, olives, and a soft egg"] },
+    "Brik": { "ing": ["Malsouka Pastry", "Tuna", "Whole Egg", "Parsley", "Capers"], "step": ["Place filling on a pastry sheet", "Crack a whole raw egg in the center", "Fold into a triangle and fry immediately", "The goal is a crispy shell and a runny yolk"] },
+    "Shakshuka": { "ing": ["Eggs", "Tomatoes", "Peppers", "Onions", "Garlic", "Spices"], "step": ["Sauté peppers and onions", "Add tomatoes and spices to form a thick sauce", "Make wells in the sauce and crack eggs into them", "Cover and simmer until whites are set"] },
+    "Ojja": { "ing": ["Merguez Sausage", "Eggs", "Tomato Paste", "Harissa", "Garlic"], "step": ["Fry the spicy merguez sausages", "Make a fast tomato and Harissa sauce", "Scramble or poach eggs directly into the sausage mix"] }
+  },
+"Canada": {
+    "Poutine": { "ing": ["French Fries", "Cheese Curds", "Beef Gravy"], "step": ["Fry potatoes until very crispy", "Top with room-temperature cheese curds", "Pour hot, thick gravy over the top to slightly melt the cheese"] },
+    "Nanaimo Bars": { "ing": ["Graham Cracker Crumbs", "Coconut", "Custard Powder", "Chocolate", "Butter"], "step": ["Press the crumb base into a pan", "Layer with a thick custard-flavored icing", "Top with melted chocolate and chill before slicing"] },
+    "Tourtière": { "ing": ["Ground Pork", "Ground Beef", "Cinnamon", "Clove", "Pie Crust"], "step": ["Cook meat with spices and onions", "Fill a double-crust pie", "Bake until the pastry is golden and flaky"] },
+    "BeaverTails": { "ing": ["Yeast Dough", "Cinnamon", "Sugar", "Lemon"], "step": ["Stretch dough into an oval shape", "Deep-fry until puffed and golden", "Coat in cinnamon sugar and a squeeze of lemon juice"] },
+    "Split Pea Soup": { "ing": ["Yellow Split Peas", "Ham Bone", "Carrots", "Onions", "Thyme"], "step": ["Simmer peas and ham bone for several hours", "Add vegetables and cook until peas are creamy", "Remove bone, shred meat, and return to the soup"] }
+  },
+ "Australia": {
+    "Meat Pie": { "ing": ["Minced Beef", "Gravy", "Shortcrust Pastry", "Puff Pastry"], "step": ["Thicken minced beef in a savory gravy", "Line a tin with shortcrust and top with puff pastry", "Bake until golden and serve with tomato sauce"] },
+    "Lamingtons": { "ing": ["Sponge Cake", "Chocolate Icing", "Desiccated Coconut"], "step": ["Cut sponge cake into squares", "Dip in chocolate icing", "Roll in coconut and let set"] },
+    "Chicken Parmigiana": { "ing": ["Chicken Breast", "Breadcrumbs", "Tomato Sauce", "Mozzarella", "Ham"], "step": ["Crumb and fry chicken", "Top with ham, sauce, and cheese", "Bake until bubbly and serve with chips and salad"] },
+    "Pavlova": { "ing": ["Egg Whites", "Sugar", "Cornstarch", "Whipped Cream", "Passionfruit"], "step": ["Whisk egg whites to stiff peaks and bake at a low temp", "Cool until the outside is crisp and the inside is marshmallowy", "Top with cream and fruit"] },
+    "Anzac Biscuits": { "ing": ["Rolled Oats", "Coconut", "Golden Syrup", "Butter", "Flour"], "step": ["Mix dry ingredients", "Melt butter with golden syrup and soda", "Combine and bake until chewy and golden"] }
+  }
