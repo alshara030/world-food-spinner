@@ -1,58 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Master-Chef Spinner</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
 <body>
-
-    <header>
-        <h1><i class="fas fa-globe-americas"></i> Global Master-Chef</h1>
-        <p>Select a country and spin for a detailed 5-star recipe tutorial.</p>
-    </header>
-
     <div class="app-container">
-        <div class="main-stage">
-            <div class="wheel-box">
-                <div class="wheel-wrapper">
-                    <div class="pointer"></div>
-                    <canvas id="wheelCanvas" width="500" height="500"></canvas>
-                </div>
-                <button id="spinBtn" onclick="spinWheel()">SPIN FOR RECIPE</button>
+        <header>
+            <h1>🌍 Flavor Passport</h1>
+            <div class="search-box">
+                <input type="text" id="countrySearch" placeholder="Search a country..." onkeyup="filterCountries()">
             </div>
+        </header>
 
-            <div class="sidebar">
-                <div class="search-box">
-                    <i class="fas fa-search"></i>
-                    <input type="text" id="countrySearch" placeholder="Search 50+ countries..." onkeyup="filterCountries()">
+        <div class="main-stage">
+            <div id="recipeCard" class="recipe-card" onclick="flipCard()">
+                <div class="card-inner" id="cardInner">
+                    <div class="card-front">
+                        <div id="country-badge" class="badge">Tap Shuffle</div>
+                        <h2 id="recipe-title">Ready to Travel?</h2>
+                        <div class="tap-hint">Click card to reveal recipe 👆</div>
+                    </div>
+                    <div class="card-back">
+                        <h3>Ingredients</h3>
+                        <ul id="ingredients-list"></ul>
+                        <hr>
+                        <h3>Method</h3>
+                        <ol id="steps-list"></ol>
+                    </div>
                 </div>
-                <select id="countrySelect" onchange="changeCountry()"></select>
-                <div id="foodList" class="food-preview-list"></div>
             </div>
         </div>
 
-        <div id="recipe-card" class="recipe-container">
-            <div class="recipe-header">
-                <h2 id="recipe-title">Choose a country to begin</h2>
-                <span id="country-badge"></span>
-            </div>
-            <div class="recipe-body">
-                <div class="ingredients-box">
-                    <h3><i class="fas fa-shopping-cart"></i> Ingredients</h3>
-                    <ul id="ingredients-list"></ul>
-                </div>
-                <div class="steps-box">
-                    <h3><i class="fas fa-mortar-pestle"></i> Cooking Tutorial</h3>
-                    <ol id="steps-list"></ol>
-                </div>
-            </div>
+        <div class="controls">
+            <button onclick="shuffleRecipe()" class="shuffle-btn">🎲 Shuffle Recipes</button>
+            <select id="countrySelect" onchange="updateSelection()"></select>
         </div>
     </div>
 
-    <script src="script.js" defer></script>
+    <script src="script.js"></script>
 </body>
-</html>
