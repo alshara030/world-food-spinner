@@ -1,82 +1,125 @@
-/* Container for the whole app */
-.app-container {
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-    padding: 20px;
-    background-color: #f0f2f5;
-    min-height: 100vh;
+:root {
+    --primary: #ff4757;
+    --dark: #2f3542;
+    --light: #ffffff;
+    --gray: #f1f2f6;
 }
 
-/* The 3D Card Setup */
+body {
+    margin: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background: #f8f9fa;
+    color: var(--dark);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 450px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+header { margin-bottom: 30px; }
+
+.logo { font-size: 24px; font-weight: 700; margin-bottom: 15px; }
+.logo span { color: var(--primary); }
+
+#countrySearch {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: none;
+    background: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    font-size: 16px;
+    outline: none;
+}
+
+/* 3D CARD STYLING */
 .recipe-card {
     perspective: 1000px;
-    width: 320px;
-    height: 480px;
-    cursor: pointer;
-    margin: 20px auto;
+    height: 55vh;
+    width: 100%;
 }
 
 .card-inner {
     position: relative;
     width: 100%;
     height: 100%;
-    transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1);
     transform-style: preserve-3d;
-    border-radius: 20px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
 }
 
-/* This class gets toggled by JS to flip it */
-.card-inner.is-flipped {
-    transform: rotateY(180deg);
-}
+.card-inner.is-flipped { transform: rotateY(180deg); }
 
 .card-front, .card-back {
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    border-radius: 20px;
-    padding: 25px;
-    box-sizing: border-box;
+    border-radius: 30px;
+    padding: 30px;
+    background: white;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.1);
     display: flex;
     flex-direction: column;
-    background: white;
+    box-sizing: border-box;
 }
 
-.card-front {
-    justify-content: center;
-    border: 2px solid #ff4757;
-}
+.card-front { justify-content: center; align-items: center; text-align: center; }
 
 .card-back {
-    background: #ffffff;
     transform: rotateY(180deg);
-    overflow-y: auto;
     text-align: left;
-    border: 2px solid #2ed573;
 }
 
-.badge {
-    background: #ff4757;
-    color: white;
-    padding: 5px 15px;
-    border-radius: 20px;
-    font-weight: bold;
+.scroll-area { overflow-y: auto; }
+
+.tag {
+    background: #ffeeef;
+    color: var(--primary);
+    padding: 6px 16px;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
 }
 
-.shuffle-btn {
-    padding: 15px 30px;
-    font-size: 1.1rem;
-    background: #2f3542;
+/* BUTTONS */
+.footer-controls {
+    margin-top: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.btn-primary {
+    background: var(--dark);
     color: white;
     border: none;
-    border-radius: 50px;
+    padding: 18px;
+    border-radius: 18px;
+    font-weight: 700;
     cursor: pointer;
     transition: 0.3s;
 }
 
-.shuffle-btn:hover {
-    background: #ff4757;
-    transform: scale(1.05);
+.btn-primary:hover { background: var(--primary); transform: translateY(-2px); }
+
+select {
+    width: 100%;
+    padding: 18px;
+    border-radius: 18px;
+    border: 1px solid #ddd;
+    appearance: none;
+    background: white;
 }
