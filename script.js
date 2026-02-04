@@ -1,116 +1,93 @@
-let recipes = {}; 
-let currentFoods = [];
-let rotation = 0;
-const colors = ["#FF5733", "#33FF57", "#3357FF", "#F333FF", "#FF33A8", "#33FFF3"];
+let recipes = {};
 
-const canvas = document.getElementById('wheelCanvas');
-const ctx = canvas.getContext('2d');
-
-// LOAD DATA
+// 1. Initialize: Load the data from your JSON file
 async function loadRecipes() {
     try {
         const response = await fetch('recipes.json');
-        if (!response.ok) throw new Error("File not found");
+        if (!response.ok) throw new Error("Could not find recipes.json");
         recipes = await response.json();
         
-        const countries = Object.keys(recipes).sort();
+        // Populate the dropdown menu with country names
         const select = document.getElementById('countrySelect');
-        
-        // Fill dropdown
+        const countries = Object.keys(recipes).sort();
         select.innerHTML = countries.map(c => `<option value="${c}">${c}</option>`).join('');
         
-        // Set initial country
-        updateSelection();
-    } catch (error) {
-        console.error("Error loading JSON:", error);
-        document.getElementById('recipe-title').innerText = "Error: recipes.json not found!";
+        console.log("Recipes loaded successfully!");
+    } catch (e) {
+        console.error("Setup Error:", e);
+        document.getElementById('recipe-title').innerText = "JSON Loading Error";
     }
 }
 
+// 2. The Shuffle Function: Picks a random country and a random recipe
+function shuffleRecipe() {
+    const card = document.getElementById('cardInner');
+    
+    // Always flip the card back to the front before changing content
+    card.classList.remove('is-flipped'); 
+    
+    // Small delay to allow the flip-back animation to look smooth
+    setTimeout(() => {
+        const countries = Object.keys(recipes);
+        const randomCountry = countries[Math.floor(Math.random() * countries.length)];
+        
+        const foods = Object.keys(recipes[randomCountry]);
+        const randomFood = foods[Math.floor(Math.random() * foods.length)];
+        
+        updateCardContent(randomCountry, randomFood);
+    }, 200);
+}
+
+// 3. Update UI: Put the text and ingredients onto the card
+function updateCardContent(country, foodName) {
+    const data = recipes[country][foodName];
+    
+    // Set Country and Title
+    document.getElementById('country-badge').innerText = country;
+    document.getElementById('recipe-title').innerText = foodName;
+    
+    // Clear and fill Ingredients list
+    const ingList = document.getElementById('ingredients-list');
+    ingList.innerHTML = data.ing.map(item => `<li>${item}</li>`).join('');
+    
+    // Clear and fill Steps list
+    const stepList = document.getElementById('steps-list');
+    stepList.innerHTML = data.step.map(step => `<li>${step}</li>`).join('');
+}
+
+// 4. Flip Control: Toggles the 3D rotation
+function flipCard() {
+    const card = document.getElementById('cardInner');
+    card.classList.toggle('is-flipped');
+}
+
+// 5. Dropdown Selection: If the user picks a specific country manually
 function updateSelection() {
     const country = document.getElementById('countrySelect').value;
-    if (recipes[country]) {
-        currentFoods = Object.keys(recipes[country]);
-        drawWheel();
-    }
-}
-
-// DRAW THE WHEEL
-function drawWheel() {
-    const size = canvas.width;
-    const center = size / 2;
-    const sliceAngle = (2 * Math.PI) / currentFoods.length;
-
-    ctx.clearRect(0, 0, size, size);
-
-    currentFoods.forEach((food, i) => {
-        ctx.beginPath();
-        ctx.fillStyle = colors[i % colors.length];
-        ctx.moveTo(center, center);
-        ctx.arc(center, center, center, i * sliceAngle, (i + 1) * sliceAngle);
-        ctx.fill();
-        ctx.stroke();
-
-        // Add Text
-        ctx.save();
-        ctx.translate(center, center);
-        ctx.rotate(i * sliceAngle + sliceAngle / 2);
-        ctx.fillStyle = "white";
-        ctx.font = "bold 16px Arial";
-        ctx.textAlign = "right";
-        ctx.fillText(food, center - 20, 10);
-        ctx.restore();
-    });
-}
-
-// SPIN LOGIC
-function spinWheel() {
-    const btn = document.getElementById('spinBtn');
-    btn.disabled = true;
-
-    const extraSpin = 1080 + Math.floor(Math.random() * 360); 
-    rotation += extraSpin;
+    const foods = Object.keys(recipes[country]);
+    const firstFood = foods[0]; // Show the first recipe of that country
     
-    canvas.style.transition = "transform 4s cubic-bezier(0.15, 0, 0.15, 1)";
-    canvas.style.transform = `rotate(${rotation}deg)`;
-
+    const card = document.getElementById('cardInner');
+    card.classList.remove('is-flipped');
+    
     setTimeout(() => {
-        btn.disabled = false;
-        const actualRotation = rotation % 360;
-        const sliceSize = 360 / currentFoods.length;
-        // Calculate which slice stopped at the pointer (top/right)
-        const winningIndex = Math.floor(((360 - actualRotation) % 360) / sliceSize);
-        showRecipe(currentFoods[winningIndex]);
-    }, 4000);
+        updateCardContent(country, firstFood);
+    }, 200);
 }
 
-function showRecipe(foodName) {
-    const country = document.getElementById('countrySelect').value;
-    const data = recipes[country][foodName];
-
-    document.getElementById('recipe-title').innerText = foodName;
-    document.getElementById('country-badge').innerText = country;
-    
-    const ingList = document.getElementById('ingredients-list');
-    const stepList = document.getElementById('steps-list');
-
-    ingList.innerHTML = data.ing.map(i => `<li>${i}</li>`).join('');
-    stepList.innerHTML = data.step.map(s => `<li>${s}</li>`).join('');
-    
-    confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
-}
-
-// Search Function
+// 6. Search Filter: Finds countries as you type
 function filterCountries() {
-    const input = document.getElementById('countrySearch').value.toLowerCase();
+    const searchTerm = document.getElementById('countrySearch').value.toLowerCase();
     const select = document.getElementById('countrySelect');
-    const options = Object.keys(recipes);
+    const allCountries = Object.keys(recipes);
     
-    const filtered = options.filter(o => o.toLowerCase().includes(input));
+    const filtered = allCountries.filter(c => c.toLowerCase().includes(searchTerm));
+    
     if (filtered.length > 0) {
         select.innerHTML = filtered.map(c => `<option value="${c}">${c}</option>`).join('');
         updateSelection();
     }
 }
 
+// Start the app!
 loadRecipes();
